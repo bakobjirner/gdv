@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jakob/Documents/gdv/gdv_6/GDV_exercise06
+CMAKE_SOURCE_DIR = /home/jakob/Documents/gdv/gdv/GDV_exercise06
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build
+CMAKE_BINARY_DIR = /home/jakob/Documents/gdv/gdv/GDV_exercise06/build
 
 # Include any dependencies generated for this target.
 include ext/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/depend.make
@@ -74,22 +74,22 @@ glfw_OBJECTS =
 
 # External object files for target glfw
 glfw_EXTERNAL_OBJECTS = \
-"/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o" \
-"/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o" \
-"/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o" \
-"/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o" \
-"/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o" \
-"/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o" \
-"/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_init.c.o" \
-"/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_monitor.c.o" \
-"/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_window.c.o" \
-"/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/xkb_unicode.c.o" \
-"/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_time.c.o" \
-"/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_thread.c.o" \
-"/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/glx_context.c.o" \
-"/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.o" \
-"/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.o" \
-"/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.o"
+"/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o" \
+"/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o" \
+"/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o" \
+"/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o" \
+"/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o" \
+"/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o" \
+"/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_init.c.o" \
+"/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_monitor.c.o" \
+"/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_window.c.o" \
+"/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/xkb_unicode.c.o" \
+"/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_time.c.o" \
+"/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_thread.c.o" \
+"/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/glx_context.c.o" \
+"/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.o" \
+"/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.o" \
+"/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.o"
 
 ext/nanogui/ext/glfw/src/libglfw3.a: ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o
 ext/nanogui/ext/glfw/src/libglfw3.a: ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o
@@ -109,19 +109,19 @@ ext/nanogui/ext/glfw/src/libglfw3.a: ext/nanogui/ext/glfw/src/CMakeFiles/glfw_ob
 ext/nanogui/ext/glfw/src/libglfw3.a: ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.o
 ext/nanogui/ext/glfw/src/libglfw3.a: ext/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/build.make
 ext/nanogui/ext/glfw/src/libglfw3.a: ext/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking C static library libglfw3.a"
-	cd /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean_target.cmake
-	cd /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glfw.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking C static library libglfw3.a"
+	cd /home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean_target.cmake
+	cd /home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glfw.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ext/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/build: ext/nanogui/ext/glfw/src/libglfw3.a
 .PHONY : ext/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/build
 
 ext/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/clean:
-	cd /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean.cmake
+	cd /home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean.cmake
 .PHONY : ext/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/clean
 
 ext/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/depend:
-	cd /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jakob/Documents/gdv/gdv_6/GDV_exercise06 /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/glfw/src /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw/src /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jakob/Documents/gdv/gdv/GDV_exercise06/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jakob/Documents/gdv/gdv/GDV_exercise06 /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/glfw/src /home/jakob/Documents/gdv/gdv/GDV_exercise06/build /home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw/src /home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ext/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/depend
 

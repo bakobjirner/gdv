@@ -86,8 +86,8 @@ public:
             scene.addPointLight({300.0f, {0.0f, 2.5f, 2.0f}});
             // TODO: enable the 3D view, if you want
             gui->addMeshView(scene);
-            // rayTracer.setScene(std::move(scene));
-            // gui->addRayTracerView(rayTracer);
+             rayTracer.setScene(std::move(scene));
+             gui->addRayTracerView(rayTracer);
         }
 
         perform_layout();

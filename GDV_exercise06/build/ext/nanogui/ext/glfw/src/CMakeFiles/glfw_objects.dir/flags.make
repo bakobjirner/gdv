@@ -4,7 +4,7 @@
 # compile C with /usr/bin/clang-14
 C_DEFINES = -D_GLFW_BUILD_DLL -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/glfw/include -I/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/glfw/src -I/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw/src
+C_INCLUDES = -I/home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/glfw/include -I/home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/glfw/src -I/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw/src
 
-C_FLAGS =  -Wno-deprecated-declarations -O3 -DNDEBUG -march=nehalem -Wall
+C_FLAGS =  -Wno-deprecated-declarations -g -march=nehalem -Wall
 

@@ -1,8 +1,9 @@
 CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.o: \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/gui/raytracer_view.cpp \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/gui/raytracer_view.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/nanogui.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/common.h \
+  /usr/lib/llvm-14/lib/clang/14.0.0/share/asan_ignorelist.txt \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/gui/raytracer_view.cpp \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/gui/raytracer_view.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/nanogui.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/common.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -110,7 +111,6 @@ CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/std_abs.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/algorithmfwd.h \
@@ -173,7 +173,6 @@ CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cerrno \
   /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
@@ -187,9 +186,9 @@ CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/cxxabi_init_exception.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/__stddef_max_align_t.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/nested_exception.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/metal.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/vector.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/traits.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/metal.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/vector.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/traits.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cassert \
   /usr/include/assert.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cmath \
@@ -217,8 +216,8 @@ CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/tr1/poly_laguerre.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/tr1/riemann_zeta.tcc \
   /usr/include/string.h /usr/include/strings.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/widget.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/object.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/widget.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/object.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/atomic \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/atomic_base.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/atomic_lockfree_defines.h \
@@ -245,7 +244,7 @@ CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/std_mutex.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/system_error \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/theme.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/theme.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/algorithm \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ranges_algo.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ranges_algobase.h \
@@ -260,21 +259,21 @@ CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ranges_util.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/pstl/glue_algorithm_defs.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/pstl/execution_defs.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/screen.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/texture.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/window.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/layout.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/label.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/checkbox.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/button.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/toolbutton.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/popup.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/popupbutton.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/combobox.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/progressbar.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/icons.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/messagedialog.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/textbox.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/screen.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/texture.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/window.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/layout.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/label.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/checkbox.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/button.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/toolbutton.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/popup.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/popupbutton.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/combobox.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/progressbar.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/icons.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/messagedialog.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/textbox.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/sstream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/istream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ios \
@@ -291,38 +290,38 @@ CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ostream.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/istream.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/sstream.tcc \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/textarea.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/slider.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/imagepanel.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/vscrollpanel.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/colorwheel.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/graph.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/formhelper.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/colorpicker.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/tabwidget.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/shader.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/renderpass.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/canvas.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/imageview.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/gui/camera_controls.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/render/camera.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/common/constants.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/textarea.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/slider.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/imagepanel.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/vscrollpanel.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/colorwheel.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/graph.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/formhelper.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/colorpicker.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/tabwidget.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/shader.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/renderpass.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/canvas.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/imageview.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/gui/camera_controls.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/render/camera.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/common/constants.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/version \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/geometry/frame.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/geometry/point3d.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/geometry/matrix3d.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/geometry/matrix4d.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/geometry/point2d.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/render/film.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/render/color.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/render/ray.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/gui/gui.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/geometry/mesh.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/geometry/aabb.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/geometry/bvh.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/geometry/frame.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/geometry/point3d.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/geometry/matrix3d.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/geometry/matrix4d.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/geometry/point2d.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/render/film.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/render/color.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/render/ray.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/gui/gui.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/geometry/mesh.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/geometry/aabb.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/geometry/bvh.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/span \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstddef \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/render/raytracer.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/render/raytracer.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/thread \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/stop_token \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/std_thread.h \
@@ -337,10 +336,10 @@ CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/parse_numbers.h \
   /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/semaphore.h \
   /usr/include/x86_64-linux-gnu/bits/semaphore.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/render/intersection.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/render/scene.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/render/instance.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/render/material.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/render/intersection.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/render/scene.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/render/instance.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/render/material.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/variant \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/map \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_tree.h \
@@ -359,8 +358,8 @@ CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ranges_uninitialized.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/uses_allocator_args.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/pstl/glue_memory_defs.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/render/light.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/render/sampler.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/render/light.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/render/sampler.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/random \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/random.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/opt_random.h \

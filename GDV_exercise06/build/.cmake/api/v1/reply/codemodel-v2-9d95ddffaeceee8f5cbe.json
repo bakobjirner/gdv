@@ -10,7 +10,7 @@
 					[
 						1
 					],
-					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.13"
@@ -28,7 +28,7 @@
 					[
 						2
 					],
-					"jsonFile" : "directory-ext-Release-fa61a31e13d0f952d633.json",
+					"jsonFile" : "directory-ext-Debug-fa61a31e13d0f952d633.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.13"
@@ -43,7 +43,7 @@
 					[
 						3
 					],
-					"jsonFile" : "directory-ext.nanogui-Release-c54bf91d236c1e72d592.json",
+					"jsonFile" : "directory-ext.nanogui-Debug-c54bf91d236c1e72d592.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.13..3.18"
@@ -62,7 +62,7 @@
 					[
 						4
 					],
-					"jsonFile" : "directory-ext.nanogui.ext.glfw-Release-8e66c978657c80d1a995.json",
+					"jsonFile" : "directory-ext.nanogui.ext.glfw-Debug-8e66c978657c80d1a995.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.13"
@@ -73,7 +73,7 @@
 				},
 				{
 					"build" : "ext/nanogui/ext/glfw/src",
-					"jsonFile" : "directory-ext.nanogui.ext.glfw.src-Release-058a710a645533641b2f.json",
+					"jsonFile" : "directory-ext.nanogui.ext.glfw.src-Debug-058a710a645533641b2f.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.13"
@@ -88,7 +88,7 @@
 					]
 				}
 			],
-			"name" : "Release",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -143,28 +143,28 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "exercise06::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-exercise06-Release-7421bea110fd69387381.json",
+					"jsonFile" : "target-exercise06-Debug-3116acf202e5372095fe.json",
 					"name" : "exercise06",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "glfw::@1be24dc577ac5b71845c",
-					"jsonFile" : "target-glfw-Release-08ff69c0bd3076fc1f4d.json",
+					"jsonFile" : "target-glfw-Debug-08ff69c0bd3076fc1f4d.json",
 					"name" : "glfw",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "glfw_objects::@1be24dc577ac5b71845c",
-					"jsonFile" : "target-glfw_objects-Release-860cac451f649fef3e83.json",
+					"jsonFile" : "target-glfw_objects-Debug-cb89d7386d862080d352.json",
 					"name" : "glfw_objects",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "nanogui::@f32fc89d7586c0a8572c",
-					"jsonFile" : "target-nanogui-Release-a74e4c42a790daee5084.json",
+					"jsonFile" : "target-nanogui-Debug-ffbae592bddeb6a497bb.json",
 					"name" : "nanogui",
 					"projectIndex" : 1
 				}
@@ -174,8 +174,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build",
-		"source" : "/home/jakob/Documents/gdv/gdv_6/GDV_exercise06"
+		"build" : "/home/jakob/Documents/gdv/gdv/GDV_exercise06/build",
+		"source" : "/home/jakob/Documents/gdv/gdv/GDV_exercise06"
 	},
 	"version" : 
 	{

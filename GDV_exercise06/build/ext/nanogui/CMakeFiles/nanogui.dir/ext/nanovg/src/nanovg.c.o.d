@@ -1,5 +1,5 @@
 ext/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o: \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/nanovg/src/nanovg.c \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/nanovg/src/nanovg.c \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h /usr/include/features-time64.h \
@@ -40,7 +40,6 @@ ext/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o: \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
@@ -49,8 +48,7 @@ ext/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o: \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
   /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
@@ -62,11 +60,11 @@ ext/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o: \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/strings.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/nanovg/src/nanovg.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/nanovg/src/fontstash.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/nanovg/src/stb_truetype.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/nanovg/src/nanovg.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/nanovg/src/fontstash.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/nanovg/src/stb_truetype.h \
   /usr/include/assert.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/nanovg/src/stb_image.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/nanovg/src/stb_image.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/__stddef_max_align_t.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/limits.h \
   /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \

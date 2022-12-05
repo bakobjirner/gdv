@@ -11,7 +11,9 @@
 		"commands" : 
 		[
 			"add_executable",
+			"target_link_options",
 			"add_compile_options",
+			"target_compile_options",
 			"include_directories"
 		],
 		"files" : 
@@ -32,11 +34,23 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 121,
+				"line" : 198,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
+				"file" : 0,
+				"line" : 121,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
 				"file" : 0,
 				"line" : 123,
 				"parent" : 0
@@ -49,11 +63,15 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -stdlib=libstdc++ -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -O3 -DNDEBUG"
+					"fragment" : " -stdlib=libstdc++ -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -g"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"fragment" : "-march=nehalem"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fsanitize=address,undefined,leak"
 				},
 				{
 					"fragment" : "-std=gnu++20"
@@ -69,20 +87,20 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 3,
-					"path" : "/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/glfw/include"
+					"backtrace" : 5,
+					"path" : "/home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/glfw/include"
 				},
 				{
-					"backtrace" : 3,
-					"path" : "/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/nanovg/src"
+					"backtrace" : 5,
+					"path" : "/home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/nanovg/src"
 				},
 				{
-					"backtrace" : 3,
-					"path" : "/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include"
+					"backtrace" : 5,
+					"path" : "/home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include"
 				},
 				{
-					"backtrace" : 3,
-					"path" : "/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include"
+					"backtrace" : 5,
+					"path" : "/home/jakob/Documents/gdv/gdv/GDV_exercise06/include"
 				}
 			],
 			"language" : "CXX",
@@ -126,11 +144,16 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-stdlib=libstdc++ -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -O3 -DNDEBUG",
+				"fragment" : "-stdlib=libstdc++ -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -g",
 				"role" : "flags"
 			},
 			{
 				"fragment" : "-stdlib=libstdc++",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-fsanitize=address,undefined,leak",
 				"role" : "flags"
 			},
 			{

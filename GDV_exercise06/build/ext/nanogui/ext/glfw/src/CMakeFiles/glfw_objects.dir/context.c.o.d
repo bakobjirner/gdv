@@ -1,8 +1,8 @@
 ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o: \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/glfw/src/context.c \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/glfw/src/internal.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw/src/glfw_config.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/glfw/src/../include/GLFW/glfw3.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/glfw/src/context.c \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/glfw/src/internal.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw/src/glfw_config.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/glfw/src/../include/GLFW/glfw3.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/stddef.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/__stddef_max_align_t.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/stdint.h \
@@ -21,7 +21,7 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o: \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/glfw/src/x11_platform.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/glfw/src/x11_platform.h \
   /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
@@ -85,7 +85,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o: \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/include/X11/extensions/Xrandr.h \
   /usr/include/X11/extensions/randr.h \
   /usr/include/X11/extensions/Xrender.h /usr/include/X11/Xutil.h \
@@ -99,7 +98,7 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o: \
   /usr/include/X11/extensions/xfixeswire.h \
   /usr/include/X11/extensions/shape.h \
   /usr/include/X11/extensions/shapeconst.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/glfw/src/posix_thread.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/glfw/src/posix_thread.h \
   /usr/include/pthread.h /usr/include/sched.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
@@ -113,10 +112,10 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o: \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
   /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
   /usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/glfw/src/posix_time.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/glfw/src/xkb_unicode.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/glfw/src/glx_context.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/glfw/src/linux_joystick.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/glfw/src/posix_time.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/glfw/src/xkb_unicode.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/glfw/src/glx_context.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/glfw/src/linux_joystick.h \
   /usr/include/linux/input.h /usr/include/x86_64-linux-gnu/sys/time.h \
   /usr/include/x86_64-linux-gnu/sys/ioctl.h \
   /usr/include/x86_64-linux-gnu/bits/ioctls.h \
@@ -136,8 +135,8 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o: \
   /usr/include/asm-generic/posix_types.h \
   /usr/include/linux/input-event-codes.h /usr/include/linux/limits.h \
   /usr/include/regex.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/glfw/src/egl_context.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/glfw/src/osmesa_context.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/glfw/src/egl_context.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/glfw/src/osmesa_context.h \
   /usr/include/assert.h /usr/include/string.h /usr/include/strings.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/limits.h \
   /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \

@@ -1,8 +1,8 @@
 ext/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o: \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/src/theme.cpp \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/theme.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/vector.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/common.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/src/theme.cpp \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/theme.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/vector.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/common.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -110,7 +110,6 @@ ext/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/std_abs.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/algorithmfwd.h \
@@ -166,7 +165,6 @@ ext/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cerrno \
   /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
@@ -180,7 +178,7 @@ ext/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/cxxabi_init_exception.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/__stddef_max_align_t.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/nested_exception.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/traits.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/traits.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cassert \
   /usr/include/assert.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cmath \
@@ -208,14 +206,14 @@ ext/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/tr1/poly_laguerre.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/tr1/riemann_zeta.tcc \
   /usr/include/string.h /usr/include/strings.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/object.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/object.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/atomic \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/atomic_base.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/atomic_lockfree_defines.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/opengl.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/glfw/include/GLFW/glfw3.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/opengl.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/glfw/include/GLFW/glfw3.h \
   /usr/include/GL/gl.h /usr/include/GL/glext.h \
   /usr/include/KHR/khrplatform.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/nanovg/src/nanovg.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/icons.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/nanogui_resources.h
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/nanovg/src/nanovg.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/icons.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/nanogui_resources.h

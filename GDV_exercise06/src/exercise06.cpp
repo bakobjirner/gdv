@@ -71,24 +71,23 @@ void main() {
     if (mode == 0) { // depth
         vec3 cameraPos = reference;
         vec3 maxDepth = extents;
-
-        // TODO: compute the depth from the world space position and the camera position
-        // TODO: normalize using the maximum depth
-        color = vec3(0.0);
+        vec3 depth = ws_position.xyz-cameraPos;
+        vec3 maxDifference = maxDepth-cameraPos;
+        vec3 depthNormalized = depth / maxDepth;
+        color = vec3(length(depthNormalized));
     }
     else if (mode == 1) { // position
         vec3 aabbMin = reference;
         vec3 aabbExtents = extents;
-
+        vec3 normalizedPos = (ws_position.xyz - aabbMin)/aabbExtents;
         // TODO: set the color to the normalized (in [0,1]^3) world space position
         // TODO: use the minimum and the extents of the scene bounds for normalization
-        color = vec3(0.0);
+        color = vec3(normalizedPos);
     }
     else if (mode == 2) { // normal
         vec3 normal = normalize(shade_flat ? ws_normal_flat : ws_normal);
-
         // TODO: set the color to the normalized (in [0,1]^3) world space normal
-        color = vec3(0.0);
+        color = normal*0.5+0.5;
     }
     else {
         color = vec3(0.0);
@@ -114,8 +113,12 @@ flat out vec3 ws_normal_flat;
 void main() {
     // TODO: apply the "wobble" transformation as described on the exercise sheet
 
-    gl_Position = mvp * vec4(position, 1.0);
-    ws_position = model * vec4(position, 1.0);
+    float x = (1+0.25*sin(5*(time+position.y)))*position.x;
+    float y = position.y;
+    float z = (1+0.25*sin(5*(time+position.y)))*position.z;
+    vec3 newPos = vec3(x,y,z);
+    gl_Position = mvp * vec4(newPos, 1.0);
+    ws_position = model * vec4(newPos, 1.0);
     ws_normal = transpose(inverse(mat3(model)))*normal;
     ws_normal_flat = ws_normal;
 }
@@ -153,6 +156,12 @@ void main() {
 
         // simple shading using ambient light and the world-space normal -- remove this
         color = albedo*(0.25+0.75*max(0, normal.z));
+        vec3 difference = ws_pos-point_light_pos;
+        float cosT = dot(normal,normalize(-difference));
+        float d = length(difference);
+        float max = cosT > 0 ? cosT : 0;
+        color = point_light_power*albedo/(4*pi*pi*d*d)*max;
+        
 
         // convert to sRGB
         color = vec3(srgb(color.r), srgb(color.g), srgb(color.b));
@@ -165,9 +174,9 @@ void main() {
 
 MyLittleShader::MyLittleShader()
 {
-    float mesh[] ={-0.5, 0.5,0, 0.5, 0.5,0, -0.5, -0.5,0, 0.5, 0.5,0, 0.5, -0.5,0, -0.5, -0.5,0};
-    float colors[] ={1.0f, 1.0f, 1.0f, 1.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 0.0f, 0.0f,0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 0.0f};
-
+    float mesh[] ={ 0.5, 0.5,0,-0.5, 0.5,0, -0.5, -0.5,0, 0.5, -0.5,0, 0.5, 0.5,0, -0.5, -0.5,0};
+    float colors[] ={ 1.0f, 0.0f, 0.0f,1.0f, 1.0f, 1.0f, 0.0f, 1.0f, 0.0f,0.0f, 0.0f, 1.0f, 1.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f};
+    glDisable(GL_CULL_FACE);
 
 
     program = GLShaderProgram::compileShaderProgram(my_little_vertex_shader,my_little_fragment_shader);
@@ -211,8 +220,6 @@ MyLittleShader::~MyLittleShader()
     glDeleteVertexArrays(1,&vertexArray);
     glDeleteBuffers(1,&buffers[0]);
     glDeleteBuffers(1,&buffers[1]);
-
-    // TODO: cleanup your OpenGL shader program, vertex array, and buffers
     CHECK_GL();
 }
 
@@ -221,11 +228,10 @@ void MyLittleShader::draw(float time)
     // checking if something went wrong somewhere else
     CHECK_GL();
     glUseProgram(program);
-    glUniform1f(glGetUniformLocation(program,"scaling"),0.5);
+    glUniform1f(glGetUniformLocation(program,"scaling"),0.5 + 0.25 * sin(time));
     glBindVertexArray(vertexArray);
     glDrawArrays(GL_TRIANGLES, 0, 6);
     glBindVertexArray(0);
     glUseProgram(0);
-    // TODO: draw your OpenGL vertex array
     CHECK_GL();
 }

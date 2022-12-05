@@ -1,8 +1,9 @@
 CMakeFiles/exercise06.dir/src/material.cpp.o: \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/material.cpp \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/render/light.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/render/color.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/geometry/point3d.h \
+  /usr/lib/llvm-14/lib/clang/14.0.0/share/asan_ignorelist.txt \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/material.cpp \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/render/light.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/render/color.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/geometry/point3d.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/algorithm \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/utility \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -78,7 +79,6 @@ CMakeFiles/exercise06.dir/src/material.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/std_abs.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/algorithmfwd.h \
@@ -161,7 +161,6 @@ CMakeFiles/exercise06.dir/src/material.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cerrno \
   /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
@@ -239,20 +238,20 @@ CMakeFiles/exercise06.dir/src/material.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/locale_facets.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_ios.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ostream.tcc \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/render/instance.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/render/material.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/common/constants.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/render/instance.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/render/material.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/common/constants.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/version \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/geometry/frame.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/geometry/frame.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/variant \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/parse_numbers.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/geometry/matrix3d.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/geometry/mesh.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/geometry/aabb.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/geometry/bvh.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/geometry/matrix3d.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/geometry/mesh.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/geometry/aabb.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/geometry/bvh.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/span \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstddef \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/geometry/point2d.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/geometry/point2d.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/map \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_tree.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_map.h \
@@ -294,7 +293,7 @@ CMakeFiles/exercise06.dir/src/material.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ranges_uninitialized.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/uses_allocator_args.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/pstl/glue_memory_defs.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/render/sampler.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/render/sampler.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/random \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/random.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/opt_random.h \
@@ -308,7 +307,7 @@ CMakeFiles/exercise06.dir/src/material.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/numeric \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_numeric.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/pstl/glue_numeric_defs.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/render/raytracer.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/render/raytracer.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/atomic \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/thread \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/stop_token \
@@ -322,9 +321,9 @@ CMakeFiles/exercise06.dir/src/material.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ctime \
   /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/semaphore.h \
   /usr/include/x86_64-linux-gnu/bits/semaphore.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/render/camera.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/geometry/matrix4d.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/render/film.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/render/ray.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/render/intersection.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/render/scene.h
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/render/camera.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/geometry/matrix4d.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/render/film.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/render/ray.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/render/intersection.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/render/scene.h

@@ -70,7 +70,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -Wno-deprecated-declarations -O3 -DNDEBUG"
+					"fragment" : " -Wno-deprecated-declarations -g"
 				},
 				{
 					"backtrace" : 2,
@@ -96,19 +96,19 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui"
+					"path" : "/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include"
+					"path" : "/home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/nanovg/src"
+					"path" : "/home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/nanovg/src"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/glfw/include"
+					"path" : "/home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/glfw/include"
 				}
 			],
 			"language" : "C",
@@ -121,7 +121,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -stdlib=libstdc++ -Wall -Wextra -stdlib=libstdc++ -O3 -DNDEBUG -fvisibility=hidden"
+					"fragment" : " -stdlib=libstdc++ -Wall -Wextra -stdlib=libstdc++ -g -fvisibility=hidden"
 				},
 				{
 					"backtrace" : 2,
@@ -150,19 +150,19 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui"
+					"path" : "/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include"
+					"path" : "/home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/nanovg/src"
+					"path" : "/home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/nanovg/src"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/glfw/include"
+					"path" : "/home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/glfw/include"
 				}
 			],
 			"language" : "CXX",

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jakob/Documents/gdv/gdv_6/GDV_exercise06
+CMAKE_SOURCE_DIR = /home/jakob/Documents/gdv/gdv/GDV_exercise06
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build
+CMAKE_BINARY_DIR = /home/jakob/Documents/gdv/gdv/GDV_exercise06/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/exercise06.dir/depend.make
@@ -72,198 +72,198 @@ include CMakeFiles/exercise06.dir/flags.make
 CMakeFiles/exercise06.dir/src/bvh.cpp.o: CMakeFiles/exercise06.dir/flags.make
 CMakeFiles/exercise06.dir/src/bvh.cpp.o: ../src/bvh.cpp
 CMakeFiles/exercise06.dir/src/bvh.cpp.o: CMakeFiles/exercise06.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exercise06.dir/src/bvh.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/bvh.cpp.o -MF CMakeFiles/exercise06.dir/src/bvh.cpp.o.d -o CMakeFiles/exercise06.dir/src/bvh.cpp.o -c /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/bvh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exercise06.dir/src/bvh.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/bvh.cpp.o -MF CMakeFiles/exercise06.dir/src/bvh.cpp.o.d -o CMakeFiles/exercise06.dir/src/bvh.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/bvh.cpp
 
 CMakeFiles/exercise06.dir/src/bvh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exercise06.dir/src/bvh.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/bvh.cpp > CMakeFiles/exercise06.dir/src/bvh.cpp.i
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/bvh.cpp > CMakeFiles/exercise06.dir/src/bvh.cpp.i
 
 CMakeFiles/exercise06.dir/src/bvh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercise06.dir/src/bvh.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/bvh.cpp -o CMakeFiles/exercise06.dir/src/bvh.cpp.s
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/bvh.cpp -o CMakeFiles/exercise06.dir/src/bvh.cpp.s
 
 CMakeFiles/exercise06.dir/src/main.cpp.o: CMakeFiles/exercise06.dir/flags.make
 CMakeFiles/exercise06.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/exercise06.dir/src/main.cpp.o: CMakeFiles/exercise06.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exercise06.dir/src/main.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/main.cpp.o -MF CMakeFiles/exercise06.dir/src/main.cpp.o.d -o CMakeFiles/exercise06.dir/src/main.cpp.o -c /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exercise06.dir/src/main.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/main.cpp.o -MF CMakeFiles/exercise06.dir/src/main.cpp.o.d -o CMakeFiles/exercise06.dir/src/main.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/main.cpp
 
 CMakeFiles/exercise06.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exercise06.dir/src/main.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/main.cpp > CMakeFiles/exercise06.dir/src/main.cpp.i
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/main.cpp > CMakeFiles/exercise06.dir/src/main.cpp.i
 
 CMakeFiles/exercise06.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercise06.dir/src/main.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/main.cpp -o CMakeFiles/exercise06.dir/src/main.cpp.s
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/main.cpp -o CMakeFiles/exercise06.dir/src/main.cpp.s
 
 CMakeFiles/exercise06.dir/src/material.cpp.o: CMakeFiles/exercise06.dir/flags.make
 CMakeFiles/exercise06.dir/src/material.cpp.o: ../src/material.cpp
 CMakeFiles/exercise06.dir/src/material.cpp.o: CMakeFiles/exercise06.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exercise06.dir/src/material.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/material.cpp.o -MF CMakeFiles/exercise06.dir/src/material.cpp.o.d -o CMakeFiles/exercise06.dir/src/material.cpp.o -c /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/material.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exercise06.dir/src/material.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/material.cpp.o -MF CMakeFiles/exercise06.dir/src/material.cpp.o.d -o CMakeFiles/exercise06.dir/src/material.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/material.cpp
 
 CMakeFiles/exercise06.dir/src/material.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exercise06.dir/src/material.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/material.cpp > CMakeFiles/exercise06.dir/src/material.cpp.i
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/material.cpp > CMakeFiles/exercise06.dir/src/material.cpp.i
 
 CMakeFiles/exercise06.dir/src/material.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercise06.dir/src/material.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/material.cpp -o CMakeFiles/exercise06.dir/src/material.cpp.s
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/material.cpp -o CMakeFiles/exercise06.dir/src/material.cpp.s
 
 CMakeFiles/exercise06.dir/src/mesh.cpp.o: CMakeFiles/exercise06.dir/flags.make
 CMakeFiles/exercise06.dir/src/mesh.cpp.o: ../src/mesh.cpp
 CMakeFiles/exercise06.dir/src/mesh.cpp.o: CMakeFiles/exercise06.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exercise06.dir/src/mesh.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/mesh.cpp.o -MF CMakeFiles/exercise06.dir/src/mesh.cpp.o.d -o CMakeFiles/exercise06.dir/src/mesh.cpp.o -c /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exercise06.dir/src/mesh.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/mesh.cpp.o -MF CMakeFiles/exercise06.dir/src/mesh.cpp.o.d -o CMakeFiles/exercise06.dir/src/mesh.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/mesh.cpp
 
 CMakeFiles/exercise06.dir/src/mesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exercise06.dir/src/mesh.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/mesh.cpp > CMakeFiles/exercise06.dir/src/mesh.cpp.i
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/mesh.cpp > CMakeFiles/exercise06.dir/src/mesh.cpp.i
 
 CMakeFiles/exercise06.dir/src/mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercise06.dir/src/mesh.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/mesh.cpp -o CMakeFiles/exercise06.dir/src/mesh.cpp.s
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/mesh.cpp -o CMakeFiles/exercise06.dir/src/mesh.cpp.s
 
 CMakeFiles/exercise06.dir/src/intersection.cpp.o: CMakeFiles/exercise06.dir/flags.make
 CMakeFiles/exercise06.dir/src/intersection.cpp.o: ../src/intersection.cpp
 CMakeFiles/exercise06.dir/src/intersection.cpp.o: CMakeFiles/exercise06.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exercise06.dir/src/intersection.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/intersection.cpp.o -MF CMakeFiles/exercise06.dir/src/intersection.cpp.o.d -o CMakeFiles/exercise06.dir/src/intersection.cpp.o -c /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/intersection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exercise06.dir/src/intersection.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/intersection.cpp.o -MF CMakeFiles/exercise06.dir/src/intersection.cpp.o.d -o CMakeFiles/exercise06.dir/src/intersection.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/intersection.cpp
 
 CMakeFiles/exercise06.dir/src/intersection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exercise06.dir/src/intersection.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/intersection.cpp > CMakeFiles/exercise06.dir/src/intersection.cpp.i
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/intersection.cpp > CMakeFiles/exercise06.dir/src/intersection.cpp.i
 
 CMakeFiles/exercise06.dir/src/intersection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercise06.dir/src/intersection.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/intersection.cpp -o CMakeFiles/exercise06.dir/src/intersection.cpp.s
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/intersection.cpp -o CMakeFiles/exercise06.dir/src/intersection.cpp.s
 
 CMakeFiles/exercise06.dir/src/raytracer.cpp.o: CMakeFiles/exercise06.dir/flags.make
 CMakeFiles/exercise06.dir/src/raytracer.cpp.o: ../src/raytracer.cpp
 CMakeFiles/exercise06.dir/src/raytracer.cpp.o: CMakeFiles/exercise06.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exercise06.dir/src/raytracer.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/raytracer.cpp.o -MF CMakeFiles/exercise06.dir/src/raytracer.cpp.o.d -o CMakeFiles/exercise06.dir/src/raytracer.cpp.o -c /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/raytracer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exercise06.dir/src/raytracer.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/raytracer.cpp.o -MF CMakeFiles/exercise06.dir/src/raytracer.cpp.o.d -o CMakeFiles/exercise06.dir/src/raytracer.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/raytracer.cpp
 
 CMakeFiles/exercise06.dir/src/raytracer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exercise06.dir/src/raytracer.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/raytracer.cpp > CMakeFiles/exercise06.dir/src/raytracer.cpp.i
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/raytracer.cpp > CMakeFiles/exercise06.dir/src/raytracer.cpp.i
 
 CMakeFiles/exercise06.dir/src/raytracer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercise06.dir/src/raytracer.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/raytracer.cpp -o CMakeFiles/exercise06.dir/src/raytracer.cpp.s
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/raytracer.cpp -o CMakeFiles/exercise06.dir/src/raytracer.cpp.s
 
 CMakeFiles/exercise06.dir/src/sampler.cpp.o: CMakeFiles/exercise06.dir/flags.make
 CMakeFiles/exercise06.dir/src/sampler.cpp.o: ../src/sampler.cpp
 CMakeFiles/exercise06.dir/src/sampler.cpp.o: CMakeFiles/exercise06.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exercise06.dir/src/sampler.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/sampler.cpp.o -MF CMakeFiles/exercise06.dir/src/sampler.cpp.o.d -o CMakeFiles/exercise06.dir/src/sampler.cpp.o -c /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/sampler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exercise06.dir/src/sampler.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/sampler.cpp.o -MF CMakeFiles/exercise06.dir/src/sampler.cpp.o.d -o CMakeFiles/exercise06.dir/src/sampler.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/sampler.cpp
 
 CMakeFiles/exercise06.dir/src/sampler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exercise06.dir/src/sampler.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/sampler.cpp > CMakeFiles/exercise06.dir/src/sampler.cpp.i
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/sampler.cpp > CMakeFiles/exercise06.dir/src/sampler.cpp.i
 
 CMakeFiles/exercise06.dir/src/sampler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercise06.dir/src/sampler.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/sampler.cpp -o CMakeFiles/exercise06.dir/src/sampler.cpp.s
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/sampler.cpp -o CMakeFiles/exercise06.dir/src/sampler.cpp.s
 
 CMakeFiles/exercise06.dir/src/gl_shader.cpp.o: CMakeFiles/exercise06.dir/flags.make
 CMakeFiles/exercise06.dir/src/gl_shader.cpp.o: ../src/gl_shader.cpp
 CMakeFiles/exercise06.dir/src/gl_shader.cpp.o: CMakeFiles/exercise06.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/exercise06.dir/src/gl_shader.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/gl_shader.cpp.o -MF CMakeFiles/exercise06.dir/src/gl_shader.cpp.o.d -o CMakeFiles/exercise06.dir/src/gl_shader.cpp.o -c /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/gl_shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/exercise06.dir/src/gl_shader.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/gl_shader.cpp.o -MF CMakeFiles/exercise06.dir/src/gl_shader.cpp.o.d -o CMakeFiles/exercise06.dir/src/gl_shader.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/gl_shader.cpp
 
 CMakeFiles/exercise06.dir/src/gl_shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exercise06.dir/src/gl_shader.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/gl_shader.cpp > CMakeFiles/exercise06.dir/src/gl_shader.cpp.i
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/gl_shader.cpp > CMakeFiles/exercise06.dir/src/gl_shader.cpp.i
 
 CMakeFiles/exercise06.dir/src/gl_shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercise06.dir/src/gl_shader.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/gl_shader.cpp -o CMakeFiles/exercise06.dir/src/gl_shader.cpp.s
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/gl_shader.cpp -o CMakeFiles/exercise06.dir/src/gl_shader.cpp.s
 
 CMakeFiles/exercise06.dir/src/gl_utils.cpp.o: CMakeFiles/exercise06.dir/flags.make
 CMakeFiles/exercise06.dir/src/gl_utils.cpp.o: ../src/gl_utils.cpp
 CMakeFiles/exercise06.dir/src/gl_utils.cpp.o: CMakeFiles/exercise06.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/exercise06.dir/src/gl_utils.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/gl_utils.cpp.o -MF CMakeFiles/exercise06.dir/src/gl_utils.cpp.o.d -o CMakeFiles/exercise06.dir/src/gl_utils.cpp.o -c /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/gl_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/exercise06.dir/src/gl_utils.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/gl_utils.cpp.o -MF CMakeFiles/exercise06.dir/src/gl_utils.cpp.o.d -o CMakeFiles/exercise06.dir/src/gl_utils.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/gl_utils.cpp
 
 CMakeFiles/exercise06.dir/src/gl_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exercise06.dir/src/gl_utils.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/gl_utils.cpp > CMakeFiles/exercise06.dir/src/gl_utils.cpp.i
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/gl_utils.cpp > CMakeFiles/exercise06.dir/src/gl_utils.cpp.i
 
 CMakeFiles/exercise06.dir/src/gl_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercise06.dir/src/gl_utils.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/gl_utils.cpp -o CMakeFiles/exercise06.dir/src/gl_utils.cpp.s
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/gl_utils.cpp -o CMakeFiles/exercise06.dir/src/gl_utils.cpp.s
 
 CMakeFiles/exercise06.dir/src/gui/gui.cpp.o: CMakeFiles/exercise06.dir/flags.make
 CMakeFiles/exercise06.dir/src/gui/gui.cpp.o: ../src/gui/gui.cpp
 CMakeFiles/exercise06.dir/src/gui/gui.cpp.o: CMakeFiles/exercise06.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/exercise06.dir/src/gui/gui.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/gui/gui.cpp.o -MF CMakeFiles/exercise06.dir/src/gui/gui.cpp.o.d -o CMakeFiles/exercise06.dir/src/gui/gui.cpp.o -c /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/gui/gui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/exercise06.dir/src/gui/gui.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/gui/gui.cpp.o -MF CMakeFiles/exercise06.dir/src/gui/gui.cpp.o.d -o CMakeFiles/exercise06.dir/src/gui/gui.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/gui/gui.cpp
 
 CMakeFiles/exercise06.dir/src/gui/gui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exercise06.dir/src/gui/gui.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/gui/gui.cpp > CMakeFiles/exercise06.dir/src/gui/gui.cpp.i
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/gui/gui.cpp > CMakeFiles/exercise06.dir/src/gui/gui.cpp.i
 
 CMakeFiles/exercise06.dir/src/gui/gui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercise06.dir/src/gui/gui.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/gui/gui.cpp -o CMakeFiles/exercise06.dir/src/gui/gui.cpp.s
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/gui/gui.cpp -o CMakeFiles/exercise06.dir/src/gui/gui.cpp.s
 
 CMakeFiles/exercise06.dir/src/gui/camera_controls.cpp.o: CMakeFiles/exercise06.dir/flags.make
 CMakeFiles/exercise06.dir/src/gui/camera_controls.cpp.o: ../src/gui/camera_controls.cpp
 CMakeFiles/exercise06.dir/src/gui/camera_controls.cpp.o: CMakeFiles/exercise06.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/exercise06.dir/src/gui/camera_controls.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/gui/camera_controls.cpp.o -MF CMakeFiles/exercise06.dir/src/gui/camera_controls.cpp.o.d -o CMakeFiles/exercise06.dir/src/gui/camera_controls.cpp.o -c /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/gui/camera_controls.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/exercise06.dir/src/gui/camera_controls.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/gui/camera_controls.cpp.o -MF CMakeFiles/exercise06.dir/src/gui/camera_controls.cpp.o.d -o CMakeFiles/exercise06.dir/src/gui/camera_controls.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/gui/camera_controls.cpp
 
 CMakeFiles/exercise06.dir/src/gui/camera_controls.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exercise06.dir/src/gui/camera_controls.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/gui/camera_controls.cpp > CMakeFiles/exercise06.dir/src/gui/camera_controls.cpp.i
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/gui/camera_controls.cpp > CMakeFiles/exercise06.dir/src/gui/camera_controls.cpp.i
 
 CMakeFiles/exercise06.dir/src/gui/camera_controls.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercise06.dir/src/gui/camera_controls.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/gui/camera_controls.cpp -o CMakeFiles/exercise06.dir/src/gui/camera_controls.cpp.s
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/gui/camera_controls.cpp -o CMakeFiles/exercise06.dir/src/gui/camera_controls.cpp.s
 
 CMakeFiles/exercise06.dir/src/gui/gl_view.cpp.o: CMakeFiles/exercise06.dir/flags.make
 CMakeFiles/exercise06.dir/src/gui/gl_view.cpp.o: ../src/gui/gl_view.cpp
 CMakeFiles/exercise06.dir/src/gui/gl_view.cpp.o: CMakeFiles/exercise06.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/exercise06.dir/src/gui/gl_view.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/gui/gl_view.cpp.o -MF CMakeFiles/exercise06.dir/src/gui/gl_view.cpp.o.d -o CMakeFiles/exercise06.dir/src/gui/gl_view.cpp.o -c /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/gui/gl_view.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/exercise06.dir/src/gui/gl_view.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/gui/gl_view.cpp.o -MF CMakeFiles/exercise06.dir/src/gui/gl_view.cpp.o.d -o CMakeFiles/exercise06.dir/src/gui/gl_view.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/gui/gl_view.cpp
 
 CMakeFiles/exercise06.dir/src/gui/gl_view.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exercise06.dir/src/gui/gl_view.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/gui/gl_view.cpp > CMakeFiles/exercise06.dir/src/gui/gl_view.cpp.i
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/gui/gl_view.cpp > CMakeFiles/exercise06.dir/src/gui/gl_view.cpp.i
 
 CMakeFiles/exercise06.dir/src/gui/gl_view.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercise06.dir/src/gui/gl_view.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/gui/gl_view.cpp -o CMakeFiles/exercise06.dir/src/gui/gl_view.cpp.s
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/gui/gl_view.cpp -o CMakeFiles/exercise06.dir/src/gui/gl_view.cpp.s
 
 CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.o: CMakeFiles/exercise06.dir/flags.make
 CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.o: ../src/gui/raytracer_view.cpp
 CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.o: CMakeFiles/exercise06.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.o -MF CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.o.d -o CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.o -c /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/gui/raytracer_view.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.o -MF CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.o.d -o CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/gui/raytracer_view.cpp
 
 CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/gui/raytracer_view.cpp > CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.i
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/gui/raytracer_view.cpp > CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.i
 
 CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/gui/raytracer_view.cpp -o CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.s
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/gui/raytracer_view.cpp -o CMakeFiles/exercise06.dir/src/gui/raytracer_view.cpp.s
 
 CMakeFiles/exercise06.dir/src/exercise06.cpp.o: CMakeFiles/exercise06.dir/flags.make
 CMakeFiles/exercise06.dir/src/exercise06.cpp.o: ../src/exercise06.cpp
 CMakeFiles/exercise06.dir/src/exercise06.cpp.o: CMakeFiles/exercise06.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/exercise06.dir/src/exercise06.cpp.o"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/exercise06.cpp.o -MF CMakeFiles/exercise06.dir/src/exercise06.cpp.o.d -o CMakeFiles/exercise06.dir/src/exercise06.cpp.o -c /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/exercise06.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/exercise06.dir/src/exercise06.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise06.dir/src/exercise06.cpp.o -MF CMakeFiles/exercise06.dir/src/exercise06.cpp.o.d -o CMakeFiles/exercise06.dir/src/exercise06.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/exercise06.cpp
 
 CMakeFiles/exercise06.dir/src/exercise06.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exercise06.dir/src/exercise06.cpp.i"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/exercise06.cpp > CMakeFiles/exercise06.dir/src/exercise06.cpp.i
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/exercise06.cpp > CMakeFiles/exercise06.dir/src/exercise06.cpp.i
 
 CMakeFiles/exercise06.dir/src/exercise06.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exercise06.dir/src/exercise06.cpp.s"
-	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/exercise06.cpp -o CMakeFiles/exercise06.dir/src/exercise06.cpp.s
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/exercise06.cpp -o CMakeFiles/exercise06.dir/src/exercise06.cpp.s
 
 # Object files for target exercise06
 exercise06_OBJECTS = \
@@ -302,7 +302,7 @@ exercise06: CMakeFiles/exercise06.dir/src/exercise06.cpp.o
 exercise06: CMakeFiles/exercise06.dir/build.make
 exercise06: ext/nanogui/libnanogui.a
 exercise06: CMakeFiles/exercise06.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable exercise06"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable exercise06"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exercise06.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -314,6 +314,6 @@ CMakeFiles/exercise06.dir/clean:
 .PHONY : CMakeFiles/exercise06.dir/clean
 
 CMakeFiles/exercise06.dir/depend:
-	cd /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jakob/Documents/gdv/gdv_6/GDV_exercise06 /home/jakob/Documents/gdv/gdv_6/GDV_exercise06 /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/CMakeFiles/exercise06.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jakob/Documents/gdv/gdv/GDV_exercise06/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jakob/Documents/gdv/gdv/GDV_exercise06 /home/jakob/Documents/gdv/gdv/GDV_exercise06 /home/jakob/Documents/gdv/gdv/GDV_exercise06/build /home/jakob/Documents/gdv/gdv/GDV_exercise06/build /home/jakob/Documents/gdv/gdv/GDV_exercise06/build/CMakeFiles/exercise06.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/exercise06.dir/depend
 

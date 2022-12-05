@@ -4,7 +4,7 @@
 # compile C with /usr/bin/clang-14
 C_DEFINES = 
 
-C_INCLUDES = -I/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/glfw/include
+C_INCLUDES = -I/home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/glfw/include
 
-C_FLAGS =  -Wno-deprecated-declarations -O3 -DNDEBUG -fPIC -march=nehalem -std=c99
+C_FLAGS =  -Wno-deprecated-declarations -g -fPIC -march=nehalem -std=c99
 

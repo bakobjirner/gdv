@@ -1,7 +1,7 @@
 ext/nanogui/CMakeFiles/nanogui.dir/src/traits.cpp.o: \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/src/traits.cpp \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/traits.h \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/include/nanogui/common.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/src/traits.cpp \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/traits.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/include/nanogui/common.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -109,7 +109,6 @@ ext/nanogui/CMakeFiles/nanogui.dir/src/traits.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/std_abs.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/algorithmfwd.h \
@@ -165,7 +164,6 @@ ext/nanogui/CMakeFiles/nanogui.dir/src/traits.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cerrno \
   /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \

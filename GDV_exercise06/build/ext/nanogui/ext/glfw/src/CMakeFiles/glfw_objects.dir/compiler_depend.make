@@ -98,7 +98,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o: ../ext/nanogui
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/include/X11/extensions/Xrandr.h \
   /usr/include/X11/extensions/randr.h \
   /usr/include/X11/extensions/Xrender.h \
@@ -269,7 +268,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.o: ../ext/nan
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/include/X11/extensions/Xrandr.h \
   /usr/include/X11/extensions/randr.h \
   /usr/include/X11/extensions/Xrender.h \
@@ -340,7 +338,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.o: ../ext/nan
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/assert.h
 
@@ -441,7 +438,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/glx_context.c.o: ../ext/nan
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/include/X11/extensions/Xrandr.h \
   /usr/include/X11/extensions/randr.h \
   /usr/include/X11/extensions/Xrender.h \
@@ -512,7 +508,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/glx_context.c.o: ../ext/nan
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/assert.h
 
@@ -613,7 +608,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o: ../ext/nanogui/ex
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/include/X11/extensions/Xrandr.h \
   /usr/include/X11/extensions/randr.h \
   /usr/include/X11/extensions/Xrender.h \
@@ -685,7 +679,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o: ../ext/nanogui/ex
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/assert.h
 
@@ -786,7 +779,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o: ../ext/nanogui/e
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/include/X11/extensions/Xrandr.h \
   /usr/include/X11/extensions/randr.h \
   /usr/include/X11/extensions/Xrender.h \
@@ -865,7 +857,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o: ../ext/nanogui/e
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/string.h \
   /usr/include/strings.h
@@ -967,7 +958,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.o: ../ext/
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/include/X11/extensions/Xrandr.h \
   /usr/include/X11/extensions/randr.h \
   /usr/include/X11/extensions/Xrender.h \
@@ -1055,7 +1045,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.o: ../ext/
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/string.h \
   /usr/include/strings.h
@@ -1157,7 +1146,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o: ../ext/nanogui
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/include/X11/extensions/Xrandr.h \
   /usr/include/X11/extensions/randr.h \
   /usr/include/X11/extensions/Xrender.h \
@@ -1238,7 +1226,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o: ../ext/nanogui
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/limits.h \
   /usr/include/limits.h \
@@ -1290,7 +1277,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.o: ../ext/
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/string.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
@@ -1354,7 +1340,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.o: ../ext/
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/include/X11/extensions/Xrandr.h \
   /usr/include/X11/extensions/randr.h \
   /usr/include/X11/extensions/Xrender.h \
@@ -1515,7 +1500,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_thread.c.o: ../ext/na
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/include/X11/extensions/Xrandr.h \
   /usr/include/X11/extensions/randr.h \
   /usr/include/X11/extensions/Xrender.h \
@@ -1658,7 +1642,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_time.c.o: ../ext/nano
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/include/X11/extensions/Xrandr.h \
   /usr/include/X11/extensions/randr.h \
   /usr/include/X11/extensions/Xrender.h \
@@ -1827,7 +1810,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o: ../ext/nanogui/
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/include/X11/extensions/Xrandr.h \
   /usr/include/X11/extensions/randr.h \
   /usr/include/X11/extensions/Xrender.h \
@@ -1899,7 +1881,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o: ../ext/nanogui/
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
 
 ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o: ../ext/nanogui/ext/glfw/src/window.c \
@@ -1999,7 +1980,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o: ../ext/nanogui/
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/include/X11/extensions/Xrandr.h \
   /usr/include/X11/extensions/randr.h \
   /usr/include/X11/extensions/Xrender.h \
@@ -2071,7 +2051,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o: ../ext/nanogui/
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/float.h
 
@@ -2172,7 +2151,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_init.c.o: ../ext/nanogu
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/include/X11/extensions/Xrandr.h \
   /usr/include/X11/extensions/randr.h \
   /usr/include/X11/extensions/Xrender.h \
@@ -2241,7 +2219,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_init.c.o: ../ext/nanogu
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/string.h \
   /usr/include/strings.h \
@@ -2350,7 +2327,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_monitor.c.o: ../ext/nan
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/include/X11/extensions/Xrandr.h \
   /usr/include/X11/extensions/randr.h \
   /usr/include/X11/extensions/Xrender.h \
@@ -2424,7 +2400,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_monitor.c.o: ../ext/nan
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/string.h \
   /usr/include/strings.h \
@@ -2534,7 +2509,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_window.c.o: ../ext/nano
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/include/X11/extensions/Xrandr.h \
   /usr/include/X11/extensions/randr.h \
   /usr/include/X11/extensions/Xrender.h \
@@ -2607,7 +2581,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_window.c.o: ../ext/nano
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/limits.h \
   /usr/include/limits.h \
@@ -2719,7 +2692,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/xkb_unicode.c.o: ../ext/nan
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/include/X11/extensions/Xrandr.h \
   /usr/include/X11/extensions/randr.h \
   /usr/include/X11/extensions/Xrender.h \
@@ -2844,6 +2816,8 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/xkb_unicode.c.o: ../ext/nan
 
 /usr/lib/llvm-14/lib/clang/14.0.0/include/limits.h:
 
+/usr/include/string.h:
+
 /usr/include/assert.h:
 
 ../ext/nanogui/ext/glfw/src/osmesa_context.h:
@@ -2871,8 +2845,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/xkb_unicode.c.o: ../ext/nan
 /usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
 
 /usr/include/asm-generic/types.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/include/x86_64-linux-gnu/asm/types.h:
 
@@ -2935,10 +2907,6 @@ ext/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/xkb_unicode.c.o: ../ext/nan
 ../ext/nanogui/ext/glfw/src/input.c:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
@@ -3174,10 +3142,6 @@ ext/nanogui/ext/glfw/src/glfw_config.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
-/usr/include/string.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
@@ -3229,3 +3193,7 @@ ext/nanogui/ext/glfw/src/glfw_config.h:
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:

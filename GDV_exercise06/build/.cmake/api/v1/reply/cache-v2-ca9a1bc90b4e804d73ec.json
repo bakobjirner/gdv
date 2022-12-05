@@ -59,7 +59,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Release"
+			"value" : "Debug"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -71,7 +71,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build"
+			"value" : "/home/jakob/Documents/gdv/gdv/GDV_exercise06/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -679,7 +679,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jakob/Documents/gdv/gdv_6/GDV_exercise06"
+			"value" : "/home/jakob/Documents/gdv/gdv/GDV_exercise06"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1663,7 +1663,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/ext/glfw"
+			"value" : "/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/ext/glfw"
 		},
 		{
 			"name" : "GLFW_BUILD_DOCS",
@@ -1783,7 +1783,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui/ext/glfw"
+			"value" : "/home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui/ext/glfw"
 		},
 		{
 			"name" : "GLFW_USE_CHDIR",
@@ -4027,7 +4027,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build"
+			"value" : "/home/jakob/Documents/gdv/gdv/GDV_exercise06/build"
 		},
 		{
 			"name" : "gdv_IS_TOP_LEVEL",
@@ -4051,7 +4051,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jakob/Documents/gdv/gdv_6/GDV_exercise06"
+			"value" : "/home/jakob/Documents/gdv/gdv/GDV_exercise06"
 		},
 		{
 			"name" : "nanogui_BINARY_DIR",
@@ -4063,7 +4063,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui"
+			"value" : "/home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui"
 		},
 		{
 			"name" : "nanogui_IS_TOP_LEVEL",
@@ -4087,7 +4087,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jakob/Documents/gdv/gdv_6/GDV_exercise06/ext/nanogui"
+			"value" : "/home/jakob/Documents/gdv/gdv/GDV_exercise06/ext/nanogui"
 		},
 		{
 			"name" : "pkgcfg_lib_PKG_FONTCONFIG_fontconfig",

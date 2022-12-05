@@ -1,6 +1,7 @@
 CMakeFiles/exercise06.dir/src/sampler.cpp.o: \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/src/sampler.cpp \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/render/sampler.h \
+  /usr/lib/llvm-14/lib/clang/14.0.0/share/asan_ignorelist.txt \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/src/sampler.cpp \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/render/sampler.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cmath \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -61,7 +62,6 @@ CMakeFiles/exercise06.dir/src/sampler.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/specfun.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_algobase.h \
@@ -98,10 +98,10 @@ CMakeFiles/exercise06.dir/src/sampler.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/tr1/poly_hermite.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/tr1/poly_laguerre.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/tr1/riemann_zeta.tcc \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/common/constants.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/common/constants.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/version \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/numbers \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/geometry/point2d.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/geometry/point2d.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/algorithm \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/utility \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_relops.h \
@@ -187,7 +187,6 @@ CMakeFiles/exercise06.dir/src/sampler.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cerrno \
   /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
@@ -241,7 +240,7 @@ CMakeFiles/exercise06.dir/src/sampler.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/locale_facets.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_ios.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/ostream.tcc \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/include/geometry/point3d.h \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/include/geometry/point3d.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/random \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/random.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/opt_random.h \

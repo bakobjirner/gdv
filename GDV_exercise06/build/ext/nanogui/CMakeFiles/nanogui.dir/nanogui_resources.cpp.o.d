@@ -1,5 +1,5 @@
 ext/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.o: \
-  /home/jakob/Documents/gdv/gdv_6/GDV_exercise06/build/ext/nanogui/nanogui_resources.cpp \
+  /home/jakob/Documents/gdv/gdv/GDV_exercise06/build/ext/nanogui/nanogui_resources.cpp \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
