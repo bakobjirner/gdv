@@ -97,8 +97,17 @@ void main() {
             vec3 s = wsTangent;
             vec3 t = wsBitangent;
 
+            vec4 normalMapTexel= texture(normalMap, texCoords);
+            //rescale
+            vec3 normalFromMap;
+            normalFromMap.x = (normalMapTexel.x - 0.5)*2;
+            normalFromMap.y = (normalMapTexel.y - 0.5)*2;
+            normalFromMap.z = (normalMapTexel.z - 0.5)*2;
+            normalFromMap = normalize(normalFromMap);
+
             // TODO: apply normal (bump) mapping here to replace the normal
-            normal = normal;
+            normal = s*normalFromMap.x+t*normalFromMap.y+normal*normalFromMap.z;
+            normal = normalize(normal);
         }
 
         float dist = length(wsDir);
@@ -112,7 +121,19 @@ void main() {
             // TODO: apply shadow mapping
             // lookup the correct location in the shadowMap
             // if you get black, simply return
-            bool shaded = false;
+           
+            float depthScale = 1-epsilon;
+
+            //scale by w
+            vec3 coordinates = (lsPosition/lsPosition.w).xyz;
+            //transfor the range
+            coordinates = (coordinates + vec3(1,1,1)) * 0.5;
+            //scale by value close to 1 to avoid self-shadowing
+            coordinates = coordinates * depthScale;
+            //the depth value as read from texture
+            float minDepth = texture(shadowMap, coordinates);
+
+            bool shaded = minDepth < 1;
             if (shaded) {
                 return;
             }

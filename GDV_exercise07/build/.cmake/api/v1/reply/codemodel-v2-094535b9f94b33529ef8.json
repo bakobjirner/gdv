@@ -1,0 +1,185 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "ext",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-ext-Release-fa61a31e13d0f952d633.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ext"
+				},
+				{
+					"build" : "ext/nanogui",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-ext.nanogui-Release-c54bf91d236c1e72d592.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13..3.18"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "ext/nanogui",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "ext/nanogui/ext/glfw",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-ext.nanogui.ext.glfw-Release-8e66c978657c80d1a995.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "ext/nanogui/ext/glfw"
+				},
+				{
+					"build" : "ext/nanogui/ext/glfw/src",
+					"jsonFile" : "directory-ext.nanogui.ext.glfw.src-Release-058a710a645533641b2f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "ext/nanogui/ext/glfw/src",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "gdv",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "nanogui",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "exercise07::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exercise07-Release-9d0e71ed0f95f4452c5a.json",
+					"name" : "exercise07",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw::@1be24dc577ac5b71845c",
+					"jsonFile" : "target-glfw-Release-08ff69c0bd3076fc1f4d.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw_objects::@1be24dc577ac5b71845c",
+					"jsonFile" : "target-glfw_objects-Release-29e35f23edb22c52aeb9.json",
+					"name" : "glfw_objects",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "nanogui::@f32fc89d7586c0a8572c",
+					"jsonFile" : "target-nanogui-Release-89c980097847dea475a5.json",
+					"name" : "nanogui",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jakob/Documents/gdv/gdv/GDV_exercise07/build",
+		"source" : "/home/jakob/Documents/gdv/gdv/GDV_exercise07"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
