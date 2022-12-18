@@ -20,16 +20,22 @@ CMakeFiles/exercise08.dir/src/exercise08.cpp.o: ../src/exercise08.cpp \
   /usr/include/c++/11/numbers \
   /usr/include/c++/11/type_traits \
   /usr/include/c++/11/limits \
+  /usr/include/c++/11/cstdint \
+  /usr/lib/llvm-14/lib/clang/14.0.0/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   ../include/misc/image_processing.h \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/bits/cpp_type_traits.h \
   /usr/include/c++/11/ext/type_traits.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -53,7 +59,6 @@ CMakeFiles/exercise08.dir/src/exercise08.cpp.o: ../src/exercise08.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/endian.h \
   /usr/include/x86_64-linux-gnu/bits/endian.h \
   /usr/include/x86_64-linux-gnu/bits/endianness.h \
@@ -117,7 +122,6 @@ CMakeFiles/exercise08.dir/src/exercise08.cpp.o: ../src/exercise08.cpp \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
@@ -131,10 +135,6 @@ CMakeFiles/exercise08.dir/src/exercise08.cpp.o: ../src/exercise08.cpp \
   /usr/include/c++/11/bits/hash_bytes.h \
   /usr/include/c++/11/bits/nested_exception.h \
   /usr/include/c++/11/bits/char_traits.h \
-  /usr/include/c++/11/cstdint \
-  /usr/lib/llvm-14/lib/clang/14.0.0/include/stdint.h \
-  /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/bits/localefwd.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
@@ -2083,10 +2083,6 @@ CMakeFiles/exercise08.dir/src/texture.cpp.o: ../src/texture.cpp \
 
 /usr/include/c++/11/map:
 
-/usr/include/c++/11/bits/cxxabi_init_exception.h:
-
-/usr/include/wchar.h:
-
 /usr/include/c++/11/exception:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
@@ -2096,6 +2092,10 @@ CMakeFiles/exercise08.dir/src/texture.cpp.o: ../src/texture.cpp \
 /usr/include/GL/gl.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/wchar.h:
+
+/usr/include/c++/11/bits/cxxabi_init_exception.h:
 
 /usr/include/c++/11/cwchar:
 
@@ -2108,10 +2108,6 @@ CMakeFiles/exercise08.dir/src/texture.cpp.o: ../src/texture.cpp \
 ../ext/nanogui/include/nanogui/layout.h:
 
 /usr/include/c++/11/bits/stringfwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/c++/11/typeinfo:
 
 /usr/include/c++/11/istream:
 
@@ -2138,12 +2134,6 @@ CMakeFiles/exercise08.dir/src/texture.cpp.o: ../src/texture.cpp \
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
 /usr/include/c++/11/cstdlib:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/usr/include/c++/11/bits/locale_facets.h:
-
-/usr/include/c++/11/bits/exception.h:
 
 /usr/include/c++/11/debug/assertions.h:
 
@@ -2205,39 +2195,39 @@ CMakeFiles/exercise08.dir/src/texture.cpp.o: ../src/texture.cpp \
 
 /usr/include/c++/11/algorithm:
 
-/usr/lib/llvm-14/lib/clang/14.0.0/include/__stddef_max_align_t.h:
-
-/usr/include/c++/11/bits/predefined_ops.h:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/math.h:
+/usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/c++/11/tr1/modified_bessel_func.tcc:
 
-/usr/include/c++/11/ext/type_traits.h:
+/usr/include/x86_64-linux-gnu/bits/endian.h:
 
-/usr/include/x86_64-linux-gnu/bits/environments.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
-/usr/include/c++/11/bits/exception_defines.h:
+/usr/include/linux/limits.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+/usr/include/c++/11/bits/shared_ptr_base.h:
 
-../ext/nanogui/include/nanogui/graph.h:
+/usr/include/c++/11/bits/basic_string.h:
 
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/usr/lib/llvm-14/lib/clang/14.0.0/include/stdint.h:
 
-/usr/include/stdlib.h:
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
-../ext/nanogui/include/nanogui/label.h:
+/usr/include/c++/11/bits/random.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+/usr/include/c++/11/bits/functexcept.h:
+
+/usr/include/c++/11/streambuf:
+
+/usr/include/c++/11/bits/locale_facets.h:
+
+/usr/include/c++/11/bits/exception.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /usr/include/c++/11/tuple:
 
@@ -2245,7 +2235,19 @@ CMakeFiles/exercise08.dir/src/texture.cpp.o: ../src/texture.cpp \
 
 ../src/exercise08.cpp:
 
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/c++/11/bits/exception_defines.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+
+/usr/include/c++/11/ext/type_traits.h:
 
 /usr/include/c++/11/bits/iterator_concepts.h:
 
@@ -2259,6 +2261,10 @@ CMakeFiles/exercise08.dir/src/texture.cpp.o: ../src/texture.cpp \
 
 /usr/include/features.h:
 
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/c++/11/cstdint:
+
 ../ext/nanogui/ext/nanovg/src/stb_image.h:
 
 /usr/include/c++/11/span:
@@ -2269,61 +2275,37 @@ CMakeFiles/exercise08.dir/src/texture.cpp.o: ../src/texture.cpp \
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
-/usr/include/c++/11/bits/stl_tempbuf.h:
-
-/usr/include/c++/11/bits/std_function.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/include/linux/limits.h:
-
-/usr/include/c++/11/bits/shared_ptr_base.h:
-
-/usr/include/c++/11/bits/basic_string.h:
-
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 ../include/common/constants.h:
 
-/usr/include/c++/11/bits/postypes.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
 /usr/include/c++/11/version:
 
-/usr/include/c++/11/debug/debug.h:
+../ext/nanogui/include/nanogui/graph.h:
 
-/usr/include/features-time64.h:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/stdlib.h:
+
+../ext/nanogui/include/nanogui/label.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
 ../ext/nanogui/include/nanogui/screen.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/c++/11/bits/random.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/lib/llvm-14/lib/clang/14.0.0/include/stdint.h:
-
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
 /usr/include/c++/11/bits/ios_base.h:
 
-../ext/nanogui/include/nanogui/colorpicker.h:
+/usr/include/c++/11/debug/debug.h:
 
-/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
-
-/usr/include/c++/11/bits/cpp_type_traits.h:
-
-/usr/include/pthread.h:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+/usr/include/features-time64.h:
 
 /usr/include/c++/11/bits/allocator.h:
 
@@ -2351,21 +2333,27 @@ CMakeFiles/exercise08.dir/src/texture.cpp.o: ../src/texture.cpp \
 
 /usr/include/stdc-predef.h:
 
-/usr/include/c++/11/bits/functexcept.h:
-
-/usr/include/c++/11/streambuf:
-
 /usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
-
-/usr/include/c++/11/complex:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/math.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/c++/11/bits/predefined_ops.h:
+
+/usr/lib/llvm-14/lib/clang/14.0.0/include/__stddef_max_align_t.h:
+
+/usr/include/c++/11/bits/std_function.h:
+
+/usr/include/c++/11/bits/stl_tempbuf.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
@@ -2377,7 +2365,31 @@ CMakeFiles/exercise08.dir/src/texture.cpp.o: ../src/texture.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
+../ext/nanogui/include/nanogui/toolbutton.h:
+
+../include/misc/image_processing.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
+
+/usr/include/c++/11/complex:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+../ext/nanogui/include/nanogui/colorpicker.h:
+
+/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/11/bits/cpp_type_traits.h:
+
+/usr/include/pthread.h:
+
+/usr/include/c++/11/bits/postypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
@@ -2390,12 +2402,6 @@ CMakeFiles/exercise08.dir/src/texture.cpp.o: ../src/texture.cpp \
 /usr/include/string.h:
 
 /usr/include/c++/11/bits/streambuf.tcc:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
@@ -2422,10 +2428,6 @@ CMakeFiles/exercise08.dir/src/texture.cpp.o: ../src/texture.cpp \
 /usr/include/c++/11/bits/locale_classes.h:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
-
-/usr/include/c++/11/bits/exception_ptr.h:
-
-/usr/include/c++/11/ext/string_conversions.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
@@ -2457,21 +2459,19 @@ CMakeFiles/exercise08.dir/src/texture.cpp.o: ../src/texture.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
-../ext/nanogui/include/nanogui/toolbutton.h:
+/usr/include/c++/11/bits/exception_ptr.h:
 
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+/usr/include/c++/11/ext/string_conversions.h:
 
-../include/misc/image_processing.h:
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/11/typeinfo:
 
 /usr/include/c++/11/bits/nested_exception.h:
 
 /usr/include/c++/11/bits/char_traits.h:
 
 /usr/include/asm-generic/errno-base.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/c++/11/cstdint:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
 
@@ -2663,9 +2663,9 @@ CMakeFiles/exercise08.dir/src/texture.cpp.o: ../src/texture.cpp \
 
 /usr/include/c++/11/bits/ptr_traits.h:
 
-/usr/include/endian.h:
-
 /usr/include/stdint.h:
+
+/usr/include/endian.h:
 
 /usr/include/c++/11/bits/erase_if.h:
 

@@ -1,4 +1,5 @@
 #include <common/constants.h>
+#include <cstdint>
 #include <misc/image_processing.h>
 #include <ostream>
 #include <render/sampler.h>
@@ -42,23 +43,51 @@ Texture DiscreteFourierTransform::dft(const Texture &input, bool inverse) {
   imag.imag(1);
 
   // without optimization
+  /*
+    for (uint32_t u = 0; u < width; u++) {
+      for (uint32_t v = 0; v < height; v++) {
+        std::complex<float> sum = 0;
+        for (uint32_t x = 0; x < width; x++) {
+          std::complex<float> innerSum = 0;
+          for (uint32_t y = 0; y < height; y++) {
+            innerSum +=
+                inputPixels[y * width + x] *
+                exp(sign * imag * 2.0f * M_PIf * ((float)u / width) * (float)x)
+    * exp(sign * imag * 2.0f * M_PIf * ((float)v / height) * (float)y);
+          }
+          sum += innerSum;
+        }
+        std::complex<float> fourierCoeffficient =
+            (1 / sqrtf(width * height)) * sum;
+        resultPixels[v * width + u] = fourierCoeffficient;
+      }
+    }
+  */
 
+  // separated
+
+  std::complex<float> temp[height*width];
+
+  for (uint32_t v = 0; v < height; v++) {
+    for (uint32_t x = 0; x < width; x++) {
+      std::complex<float> sum = 0;
+      for (uint32_t y = 0; y < height; y++) {
+        sum += inputPixels[y * width + x] *
+               exp(sign * imag * 2.0f * M_PIf * (float)v * (float)y /
+                   (float)height);
+      }
+      temp[v * width + x] = sum;
+    }
+  }
   for (uint32_t u = 0; u < width; u++) {
     for (uint32_t v = 0; v < height; v++) {
       std::complex<float> sum = 0;
       for (uint32_t x = 0; x < width; x++) {
-        std::complex<float> innerSum = 0;
-        for (uint32_t y = 0; y < height; y++) {
-          innerSum +=
-              inputPixels[y * width + x] *
-              exp(sign * imag * 2.0f * M_PIf * ((float)u / width) * (float)x) *
-              exp(sign * imag * 2.0f * M_PIf * ((float)v / height) * (float)y);
-        }
-        sum += innerSum;
+        sum += temp[v * width + x] *
+               exp(sign * imag * 2.0f * M_PIf * (float)u * (float)x /
+                   (float)width);
       }
-      std::complex<float> fourierCoeffficient =
-          (1 / sqrtf(width * height)) * sum;
-      resultPixels[v * width + u] = fourierCoeffficient;
+      resultPixels[v * width + u] = std::complex<float>(1/(sqrt(width*height)),0)*sum;
     }
   }
 
@@ -113,7 +142,6 @@ SamplingPatterns::generateSamplePosition(uint32_t numSamplesPerDim) const {
         float rand2 = Sampler::randomFloat();
         result.emplace_back((i + rand1) / numSamplesPerDim,
                             (j + rand2) / numSamplesPerDim);
-
       }
     }
     break;
