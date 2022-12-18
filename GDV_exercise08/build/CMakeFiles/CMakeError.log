@@ -353,3 +353,927 @@ gmake: *** [Makefile:127: cmTC_e8160/fast] Error 2
 
 
 
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2dfc7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2dfc7.dir/build.make CMakeFiles/cmTC_2dfc7.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2dfc7.dir/OpenMPTryFlag.c.o
+/usr/bin/clang-14   -fopenmp=libomp -v -MD -MT CMakeFiles/cmTC_2dfc7.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_2dfc7.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_2dfc7.dir/OpenMPTryFlag.c.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_2dfc7.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_2dfc7.dir/OpenMPTryFlag.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_2dfc7.dir/OpenMPTryFlag.c.o -x c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_2dfc7.dir/build.make:79: CMakeFiles/cmTC_2dfc7.dir/OpenMPTryFlag.c.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_2dfc7/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c98cc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c98cc.dir/build.make CMakeFiles/cmTC_c98cc.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c98cc.dir/OpenMPTryFlag.c.o
+/usr/bin/clang-14   -fopenmp=libiomp5 -v -MD -MT CMakeFiles/cmTC_c98cc.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_c98cc.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_c98cc.dir/OpenMPTryFlag.c.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_c98cc.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_c98cc.dir/OpenMPTryFlag.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c98cc.dir/OpenMPTryFlag.c.o -x c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_c98cc.dir/build.make:79: CMakeFiles/cmTC_c98cc.dir/OpenMPTryFlag.c.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c98cc/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9ffce/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9ffce.dir/build.make CMakeFiles/cmTC_9ffce.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ffce.dir/OpenMPTryFlag.c.o
+/usr/bin/clang-14   -fopenmp -v -MD -MT CMakeFiles/cmTC_9ffce.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_9ffce.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_9ffce.dir/OpenMPTryFlag.c.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_9ffce.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_9ffce.dir/OpenMPTryFlag.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_9ffce.dir/OpenMPTryFlag.c.o -x c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_9ffce.dir/build.make:79: CMakeFiles/cmTC_9ffce.dir/OpenMPTryFlag.c.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9ffce/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_15f3a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_15f3a.dir/build.make CMakeFiles/cmTC_15f3a.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15f3a.dir/OpenMPTryFlag.c.o
+/usr/bin/clang-14   -Xclang -fopenmp -v -MD -MT CMakeFiles/cmTC_15f3a.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_15f3a.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_15f3a.dir/OpenMPTryFlag.c.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_15f3a.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_15f3a.dir/OpenMPTryFlag.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fopenmp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_15f3a.dir/OpenMPTryFlag.c.o -x c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_15f3a.dir/build.make:79: CMakeFiles/cmTC_15f3a.dir/OpenMPTryFlag.c.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_15f3a/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7786b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7786b.dir/build.make CMakeFiles/cmTC_7786b.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7786b.dir/OpenMPTryFlag.cpp.o
+/usr/bin/clang++-14   -stdlib=libstdc++ -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -fopenmp=libomp -v -std=gnu++20 -MD -MT CMakeFiles/cmTC_7786b.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_7786b.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_7786b.dir/OpenMPTryFlag.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_7786b.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_7786b.dir/OpenMPTryFlag.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -std=gnu++20 -fdeprecated-macro -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7786b.dir/OpenMPTryFlag.cpp.o -x c++ /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_7786b.dir/build.make:79: CMakeFiles/cmTC_7786b.dir/OpenMPTryFlag.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_7786b/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_23d4e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_23d4e.dir/build.make CMakeFiles/cmTC_23d4e.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_23d4e.dir/OpenMPTryFlag.cpp.o
+/usr/bin/clang++-14   -stdlib=libstdc++ -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -fopenmp=libiomp5 -v -std=gnu++20 -MD -MT CMakeFiles/cmTC_23d4e.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_23d4e.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_23d4e.dir/OpenMPTryFlag.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_23d4e.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_23d4e.dir/OpenMPTryFlag.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -std=gnu++20 -fdeprecated-macro -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_23d4e.dir/OpenMPTryFlag.cpp.o -x c++ /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_23d4e.dir/build.make:79: CMakeFiles/cmTC_23d4e.dir/OpenMPTryFlag.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_23d4e/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_da170/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_da170.dir/build.make CMakeFiles/cmTC_da170.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_da170.dir/OpenMPTryFlag.cpp.o
+/usr/bin/clang++-14   -stdlib=libstdc++ -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -fopenmp -v -std=gnu++20 -MD -MT CMakeFiles/cmTC_da170.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_da170.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_da170.dir/OpenMPTryFlag.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_da170.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_da170.dir/OpenMPTryFlag.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -std=gnu++20 -fdeprecated-macro -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_da170.dir/OpenMPTryFlag.cpp.o -x c++ /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_da170.dir/build.make:79: CMakeFiles/cmTC_da170.dir/OpenMPTryFlag.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_da170/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2efee/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2efee.dir/build.make CMakeFiles/cmTC_2efee.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2efee.dir/OpenMPTryFlag.cpp.o
+/usr/bin/clang++-14   -stdlib=libstdc++ -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -Xclang -fopenmp -v -std=gnu++20 -MD -MT CMakeFiles/cmTC_2efee.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_2efee.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_2efee.dir/OpenMPTryFlag.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_2efee.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_2efee.dir/OpenMPTryFlag.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -std=gnu++20 -fdeprecated-macro -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fopenmp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_2efee.dir/OpenMPTryFlag.cpp.o -x c++ /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_2efee.dir/build.make:79: CMakeFiles/cmTC_2efee.dir/OpenMPTryFlag.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_2efee/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0fb6f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0fb6f.dir/build.make CMakeFiles/cmTC_0fb6f.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0fb6f.dir/OpenMPTryFlag.c.o
+/usr/bin/clang-14   -fopenmp=libomp -v -MD -MT CMakeFiles/cmTC_0fb6f.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_0fb6f.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_0fb6f.dir/OpenMPTryFlag.c.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_0fb6f.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_0fb6f.dir/OpenMPTryFlag.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_0fb6f.dir/OpenMPTryFlag.c.o -x c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_0fb6f.dir/build.make:79: CMakeFiles/cmTC_0fb6f.dir/OpenMPTryFlag.c.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_0fb6f/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_88adb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_88adb.dir/build.make CMakeFiles/cmTC_88adb.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88adb.dir/OpenMPTryFlag.c.o
+/usr/bin/clang-14   -fopenmp=libiomp5 -v -MD -MT CMakeFiles/cmTC_88adb.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_88adb.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_88adb.dir/OpenMPTryFlag.c.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_88adb.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_88adb.dir/OpenMPTryFlag.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_88adb.dir/OpenMPTryFlag.c.o -x c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_88adb.dir/build.make:79: CMakeFiles/cmTC_88adb.dir/OpenMPTryFlag.c.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_88adb/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eddcf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eddcf.dir/build.make CMakeFiles/cmTC_eddcf.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eddcf.dir/OpenMPTryFlag.c.o
+/usr/bin/clang-14   -fopenmp -v -MD -MT CMakeFiles/cmTC_eddcf.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_eddcf.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_eddcf.dir/OpenMPTryFlag.c.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_eddcf.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_eddcf.dir/OpenMPTryFlag.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_eddcf.dir/OpenMPTryFlag.c.o -x c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_eddcf.dir/build.make:79: CMakeFiles/cmTC_eddcf.dir/OpenMPTryFlag.c.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_eddcf/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cadf9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cadf9.dir/build.make CMakeFiles/cmTC_cadf9.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cadf9.dir/OpenMPTryFlag.c.o
+/usr/bin/clang-14   -Xclang -fopenmp -v -MD -MT CMakeFiles/cmTC_cadf9.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_cadf9.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_cadf9.dir/OpenMPTryFlag.c.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_cadf9.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_cadf9.dir/OpenMPTryFlag.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fopenmp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_cadf9.dir/OpenMPTryFlag.c.o -x c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_cadf9.dir/build.make:79: CMakeFiles/cmTC_cadf9.dir/OpenMPTryFlag.c.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_cadf9/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d7b90/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d7b90.dir/build.make CMakeFiles/cmTC_d7b90.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d7b90.dir/OpenMPTryFlag.cpp.o
+/usr/bin/clang++-14   -stdlib=libstdc++ -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -fopenmp=libomp -v -std=gnu++20 -MD -MT CMakeFiles/cmTC_d7b90.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_d7b90.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_d7b90.dir/OpenMPTryFlag.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_d7b90.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_d7b90.dir/OpenMPTryFlag.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -std=gnu++20 -fdeprecated-macro -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d7b90.dir/OpenMPTryFlag.cpp.o -x c++ /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_d7b90.dir/build.make:79: CMakeFiles/cmTC_d7b90.dir/OpenMPTryFlag.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d7b90/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5ad94/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5ad94.dir/build.make CMakeFiles/cmTC_5ad94.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5ad94.dir/OpenMPTryFlag.cpp.o
+/usr/bin/clang++-14   -stdlib=libstdc++ -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -fopenmp=libiomp5 -v -std=gnu++20 -MD -MT CMakeFiles/cmTC_5ad94.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_5ad94.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_5ad94.dir/OpenMPTryFlag.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_5ad94.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_5ad94.dir/OpenMPTryFlag.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -std=gnu++20 -fdeprecated-macro -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_5ad94.dir/OpenMPTryFlag.cpp.o -x c++ /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_5ad94.dir/build.make:79: CMakeFiles/cmTC_5ad94.dir/OpenMPTryFlag.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_5ad94/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cec6d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cec6d.dir/build.make CMakeFiles/cmTC_cec6d.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cec6d.dir/OpenMPTryFlag.cpp.o
+/usr/bin/clang++-14   -stdlib=libstdc++ -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -fopenmp -v -std=gnu++20 -MD -MT CMakeFiles/cmTC_cec6d.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_cec6d.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_cec6d.dir/OpenMPTryFlag.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_cec6d.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_cec6d.dir/OpenMPTryFlag.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -std=gnu++20 -fdeprecated-macro -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_cec6d.dir/OpenMPTryFlag.cpp.o -x c++ /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_cec6d.dir/build.make:79: CMakeFiles/cmTC_cec6d.dir/OpenMPTryFlag.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_cec6d/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a28c3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a28c3.dir/build.make CMakeFiles/cmTC_a28c3.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a28c3.dir/OpenMPTryFlag.cpp.o
+/usr/bin/clang++-14   -stdlib=libstdc++ -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -Xclang -fopenmp -v -std=gnu++20 -MD -MT CMakeFiles/cmTC_a28c3.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_a28c3.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_a28c3.dir/OpenMPTryFlag.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_a28c3.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_a28c3.dir/OpenMPTryFlag.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -std=gnu++20 -fdeprecated-macro -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fopenmp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a28c3.dir/OpenMPTryFlag.cpp.o -x c++ /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_a28c3.dir/build.make:79: CMakeFiles/cmTC_a28c3.dir/OpenMPTryFlag.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a28c3/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d0908/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d0908.dir/build.make CMakeFiles/cmTC_d0908.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0908.dir/OpenMPTryFlag.c.o
+/usr/bin/clang-14   -fopenmp=libomp -v -MD -MT CMakeFiles/cmTC_d0908.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_d0908.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_d0908.dir/OpenMPTryFlag.c.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_d0908.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_d0908.dir/OpenMPTryFlag.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d0908.dir/OpenMPTryFlag.c.o -x c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_d0908.dir/build.make:79: CMakeFiles/cmTC_d0908.dir/OpenMPTryFlag.c.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d0908/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_68667/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_68667.dir/build.make CMakeFiles/cmTC_68667.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68667.dir/OpenMPTryFlag.c.o
+/usr/bin/clang-14   -fopenmp=libiomp5 -v -MD -MT CMakeFiles/cmTC_68667.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_68667.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_68667.dir/OpenMPTryFlag.c.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_68667.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_68667.dir/OpenMPTryFlag.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_68667.dir/OpenMPTryFlag.c.o -x c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_68667.dir/build.make:79: CMakeFiles/cmTC_68667.dir/OpenMPTryFlag.c.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_68667/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_df13f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_df13f.dir/build.make CMakeFiles/cmTC_df13f.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df13f.dir/OpenMPTryFlag.c.o
+/usr/bin/clang-14   -fopenmp -v -MD -MT CMakeFiles/cmTC_df13f.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_df13f.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_df13f.dir/OpenMPTryFlag.c.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_df13f.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_df13f.dir/OpenMPTryFlag.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_df13f.dir/OpenMPTryFlag.c.o -x c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_df13f.dir/build.make:79: CMakeFiles/cmTC_df13f.dir/OpenMPTryFlag.c.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_df13f/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_709be/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_709be.dir/build.make CMakeFiles/cmTC_709be.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_709be.dir/OpenMPTryFlag.c.o
+/usr/bin/clang-14   -Xclang -fopenmp -v -MD -MT CMakeFiles/cmTC_709be.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_709be.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_709be.dir/OpenMPTryFlag.c.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_709be.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_709be.dir/OpenMPTryFlag.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fopenmp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_709be.dir/OpenMPTryFlag.c.o -x c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_709be.dir/build.make:79: CMakeFiles/cmTC_709be.dir/OpenMPTryFlag.c.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_709be/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_47922/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_47922.dir/build.make CMakeFiles/cmTC_47922.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_47922.dir/OpenMPTryFlag.cpp.o
+/usr/bin/clang++-14   -stdlib=libstdc++ -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -fopenmp=libomp -v -std=gnu++20 -MD -MT CMakeFiles/cmTC_47922.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_47922.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_47922.dir/OpenMPTryFlag.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_47922.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_47922.dir/OpenMPTryFlag.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -std=gnu++20 -fdeprecated-macro -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_47922.dir/OpenMPTryFlag.cpp.o -x c++ /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_47922.dir/build.make:79: CMakeFiles/cmTC_47922.dir/OpenMPTryFlag.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_47922/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8290b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8290b.dir/build.make CMakeFiles/cmTC_8290b.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8290b.dir/OpenMPTryFlag.cpp.o
+/usr/bin/clang++-14   -stdlib=libstdc++ -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -fopenmp=libiomp5 -v -std=gnu++20 -MD -MT CMakeFiles/cmTC_8290b.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_8290b.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_8290b.dir/OpenMPTryFlag.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_8290b.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_8290b.dir/OpenMPTryFlag.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -std=gnu++20 -fdeprecated-macro -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_8290b.dir/OpenMPTryFlag.cpp.o -x c++ /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_8290b.dir/build.make:79: CMakeFiles/cmTC_8290b.dir/OpenMPTryFlag.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_8290b/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_98fae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_98fae.dir/build.make CMakeFiles/cmTC_98fae.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98fae.dir/OpenMPTryFlag.cpp.o
+/usr/bin/clang++-14   -stdlib=libstdc++ -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -fopenmp -v -std=gnu++20 -MD -MT CMakeFiles/cmTC_98fae.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_98fae.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_98fae.dir/OpenMPTryFlag.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_98fae.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_98fae.dir/OpenMPTryFlag.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -std=gnu++20 -fdeprecated-macro -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_98fae.dir/OpenMPTryFlag.cpp.o -x c++ /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_98fae.dir/build.make:79: CMakeFiles/cmTC_98fae.dir/OpenMPTryFlag.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_98fae/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a0b5f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a0b5f.dir/build.make CMakeFiles/cmTC_a0b5f.dir/build
+gmake[1]: Entering directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a0b5f.dir/OpenMPTryFlag.cpp.o
+/usr/bin/clang++-14   -stdlib=libstdc++ -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -Xclang -fopenmp -v -std=gnu++20 -MD -MT CMakeFiles/cmTC_a0b5f.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_a0b5f.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_a0b5f.dir/OpenMPTryFlag.cpp.o -c /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_a0b5f.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_a0b5f.dir/OpenMPTryFlag.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -std=gnu++20 -fdeprecated-macro -fdebug-compilation-dir=/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fopenmp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a0b5f.dir/OpenMPTryFlag.cpp.o -x c++ /home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_a0b5f.dir/build.make:79: CMakeFiles/cmTC_a0b5f.dir/OpenMPTryFlag.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a0b5f/fast] Error 2
+
+
+

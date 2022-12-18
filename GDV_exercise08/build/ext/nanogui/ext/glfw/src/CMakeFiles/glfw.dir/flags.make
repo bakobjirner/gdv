@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = -I/home/jakob/Documents/gdv/gdv/GDV_exercise08/ext/nanogui/ext/glfw/include
 
-C_FLAGS =  -Wno-deprecated-declarations -g -fPIC -march=nehalem -std=c99
+C_FLAGS =  -Wno-deprecated-declarations -O3 -DNDEBUG -fPIC -march=nehalem -std=c99
 

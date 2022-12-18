@@ -6,5 +6,5 @@ C_DEFINES = -D_GLFW_BUILD_DLL -D_GLFW_USE_CONFIG_H
 
 C_INCLUDES = -I/home/jakob/Documents/gdv/gdv/GDV_exercise08/ext/nanogui/ext/glfw/include -I/home/jakob/Documents/gdv/gdv/GDV_exercise08/ext/nanogui/ext/glfw/src -I/home/jakob/Documents/gdv/gdv/GDV_exercise08/build/ext/nanogui/ext/glfw/src
 
-C_FLAGS =  -Wno-deprecated-declarations -g -march=nehalem -Wall
+C_FLAGS =  -Wno-deprecated-declarations -O3 -DNDEBUG -march=nehalem -Wall
 
