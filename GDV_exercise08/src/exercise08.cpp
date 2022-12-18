@@ -1,11 +1,13 @@
 #include <common/constants.h>
 #include <misc/image_processing.h>
+#include <ostream>
 #include <render/sampler.h>
 
 #include <cmath>
 #include <complex>
 #include <iostream>
 #include <stdexcept>
+#include <string>
 
 Texture DiscreteFourierTransform::dft(const Texture &input, bool inverse) {
   if (input.channels != Texture::Channels::RG ||
@@ -40,28 +42,25 @@ Texture DiscreteFourierTransform::dft(const Texture &input, bool inverse) {
   imag.imag(1);
 
   // without optimization
-  
-    for (uint32_t u = 0; u < width; u++) {
-      for (uint32_t v = 0; v < height; v++) {
-        std::complex<float> sum = 0;
-        for (uint32_t x = 0; x < width; x++) {
-          std::complex<float> innerSum = 0;
-          for (uint32_t y = 0; y < height; y++) {
-            innerSum +=
-                inputPixels[y * width + x] *
-                exp(sign*imag * 2.0f * M_PIf * ((float)u / width) * (float)x) *
-                exp(sign*imag * 2.0f * M_PIf * ((float)v / height) * (float)y);
-          }
-          sum += innerSum;
+
+  for (uint32_t u = 0; u < width; u++) {
+    for (uint32_t v = 0; v < height; v++) {
+      std::complex<float> sum = 0;
+      for (uint32_t x = 0; x < width; x++) {
+        std::complex<float> innerSum = 0;
+        for (uint32_t y = 0; y < height; y++) {
+          innerSum +=
+              inputPixels[y * width + x] *
+              exp(sign * imag * 2.0f * M_PIf * ((float)u / width) * (float)x) *
+              exp(sign * imag * 2.0f * M_PIf * ((float)v / height) * (float)y);
         }
-        std::complex<float> fourierCoeffficient =
-            (1 / sqrtf(width * height)) * sum;
-        resultPixels[v * width + u] = fourierCoeffficient;
+        sum += innerSum;
       }
+      std::complex<float> fourierCoeffficient =
+          (1 / sqrtf(width * height)) * sum;
+      resultPixels[v * width + u] = fourierCoeffficient;
     }
-    
-
-
+  }
 
   std::cout << " done.\n" << std::flush;
 
@@ -70,8 +69,14 @@ Texture DiscreteFourierTransform::dft(const Texture &input, bool inverse) {
 
 float SamplingPatterns::eval(Point2D pos) const {
   switch (function) {
-    // TODO: implement the three functions given on the exercise sheet
-
+  case Function::CampbellRobson:
+    return 1.0f / 2.0f *
+           (1 + (1 - pos.y) * (1 - pos.y) * (1 - pos.y) *
+                    sin(2 * M_PI * pos.x * exp(10 * pos.x)));
+  case Function::SmoothZonePlate:
+    return 1.0f / 2.0f * (1 + sin(1600 * (pos.x * pos.x + pos.y * pos.y)));
+  case Function::SiemensStar:
+    return 1.0f / 2.0f * (1 + sin(60 * 4 * M_PI * atan(pos.x / pos.y)));
   default: // checkerboard :) - not to be used
     return static_cast<float>(1 & (static_cast<int32_t>(pos.x * 2.0f) ^
                                    static_cast<int32_t>(pos.y * 2.0f)));
@@ -82,12 +87,40 @@ std::vector<Point2D>
 SamplingPatterns::generateSamplePosition(uint32_t numSamplesPerDim) const {
   std::vector<Point2D> result;
   result.reserve(numSamplesPerDim * numSamplesPerDim);
+  result.emplace_back(0.5f, 0.5f);
 
   // TODO: generate n = m^2 samples according to the given sampling strategies
+  switch (samplingStrategy) {
+  case SamplingStrategy::Regular:
+    for (uint32_t i = 0; i < numSamplesPerDim; i++) {
+      for (uint32_t j = 0; j < numSamplesPerDim; j++) {
+        result.emplace_back((i + 1.0f / 2.0f) / numSamplesPerDim,
+                            (j + 1.0f / 2.0f) / numSamplesPerDim);
+      }
+    }
+    break;
+  case SamplingStrategy::Random:
+    for (uint32_t i = 0; i < numSamplesPerDim; i++) {
+      for (uint32_t j = 0; j < numSamplesPerDim; j++) {
+        result.emplace_back(Sampler::randomFloat(), Sampler::randomFloat());
+      }
+    }
+    break;
+  case SamplingStrategy::Stratified:
+    for (uint32_t i = 0; i < numSamplesPerDim; i++) {
+      for (uint32_t j = 0; j < numSamplesPerDim; j++) {
+        float rand1 = Sampler::randomFloat();
+        float rand2 = Sampler::randomFloat();
+        result.emplace_back((i + rand1) / numSamplesPerDim,
+                            (j + rand2) / numSamplesPerDim);
 
-  result.emplace_back(0.5f,
-                      0.5f); // just sample the pixel center - replace this
-
+      }
+    }
+    break;
+  default:
+    result.emplace_back(0.5f, 0.5f);
+    break;
+  }
   return result;
 }
 
