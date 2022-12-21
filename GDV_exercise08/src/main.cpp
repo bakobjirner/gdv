@@ -35,7 +35,7 @@ public:
         gui = new GDVGUI(this);
 
         // TODO: enable this for the DFT task
-        if constexpr (/* Discrete Fourier Transform */ (true)) {
+        if constexpr (/* Discrete Fourier Transform */ (false)) {
             auto view1 = gui->addDFTView();
             auto view2 = gui->addDFTView();
             view1->setNext(view2);
