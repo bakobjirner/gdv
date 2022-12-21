@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/exercise00.dir/src/bvh.cpp.o"
+  "CMakeFiles/exercise00.dir/src/bvh.cpp.o.d"
+  "CMakeFiles/exercise00.dir/src/gl/gl_envmap.cpp.o"
+  "CMakeFiles/exercise00.dir/src/gl/gl_envmap.cpp.o.d"
+  "CMakeFiles/exercise00.dir/src/gl/gl_utils.cpp.o"
+  "CMakeFiles/exercise00.dir/src/gl/gl_utils.cpp.o.d"
+  "CMakeFiles/exercise00.dir/src/gl/helper_shader.cpp.o"
+  "CMakeFiles/exercise00.dir/src/gl/helper_shader.cpp.o.d"
+  "CMakeFiles/exercise00.dir/src/gl/pbr_shader.cpp.o"
+  "CMakeFiles/exercise00.dir/src/gl/pbr_shader.cpp.o.d"
+  "CMakeFiles/exercise00.dir/src/gl/simple_shader.cpp.o"
+  "CMakeFiles/exercise00.dir/src/gl/simple_shader.cpp.o.d"
+  "CMakeFiles/exercise00.dir/src/gui/camera_controls.cpp.o"
+  "CMakeFiles/exercise00.dir/src/gui/camera_controls.cpp.o.d"
+  "CMakeFiles/exercise00.dir/src/gui/gl_view.cpp.o"
+  "CMakeFiles/exercise00.dir/src/gui/gl_view.cpp.o.d"
+  "CMakeFiles/exercise00.dir/src/gui/gui.cpp.o"
+  "CMakeFiles/exercise00.dir/src/gui/gui.cpp.o.d"
+  "CMakeFiles/exercise00.dir/src/gui/raytracer_view.cpp.o"
+  "CMakeFiles/exercise00.dir/src/gui/raytracer_view.cpp.o.d"
+  "CMakeFiles/exercise00.dir/src/intersection.cpp.o"
+  "CMakeFiles/exercise00.dir/src/intersection.cpp.o.d"
+  "CMakeFiles/exercise00.dir/src/main.cpp.o"
+  "CMakeFiles/exercise00.dir/src/main.cpp.o.d"
+  "CMakeFiles/exercise00.dir/src/mesh.cpp.o"
+  "CMakeFiles/exercise00.dir/src/mesh.cpp.o.d"
+  "CMakeFiles/exercise00.dir/src/raytracer.cpp.o"
+  "CMakeFiles/exercise00.dir/src/raytracer.cpp.o.d"
+  "CMakeFiles/exercise00.dir/src/sampler.cpp.o"
+  "CMakeFiles/exercise00.dir/src/sampler.cpp.o.d"
+  "CMakeFiles/exercise00.dir/src/texture.cpp.o"
+  "CMakeFiles/exercise00.dir/src/texture.cpp.o.d"
+  "exercise00"
+  "exercise00.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/exercise00.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

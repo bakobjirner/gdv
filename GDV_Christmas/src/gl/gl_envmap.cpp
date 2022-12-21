@@ -145,6 +145,8 @@ GLEnvironmentMap::GLEnvironmentMap(const Texture& envmapTexture) : envmap{envmap
                             static_cast<uint32_t>(static_cast<float>(mipRes.x) * phiI * invTwoPi);
                         if (pixelX >= mipRes.x) // atan2 can return pi, so this might overflow
                             pixelX -= mipRes.x;
+                        if (pixelY >= mipRes.y) // acos can return pi, so this might overflow
+                            pixelY = mipRes.y-1; // here we clamp to top and bottom
 
                         sum += inputPixels[pixelY * mipRes.x + pixelX] * weight;
                     }
