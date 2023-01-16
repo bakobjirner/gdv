@@ -73,7 +73,7 @@ PBRShader::PBRShader(const GLMesh& mesh, const Matrix4D& model, const Material& 
         meshShader.setUniform("F0", Point3D{roughPlastic.dielectric.fresnel(1, 1)});
     }
     meshShader.setUniform("speed", material.textures.speed);
-    meshShader.setUniform("max_pos", material.textures.max_pos);
+    meshShader.setUniform("lifetime", material.textures.lifetime);
 
 
     meshShader.deactivate();

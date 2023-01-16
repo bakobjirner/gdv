@@ -153,20 +153,27 @@ public:
                 gui->setCameraParameters({{-0.5f, 1.0f, -0.5f}, {2.0f, 1.5f, 3.0f}});
 
                 //settings for snow
-                float snowSpawnWidth = 5;
-                float snowSpawnDepth = 5;
+                //box in which to spawn the snow. it is offset, so it sits before the camera in the christmas scene
+                float snowSpawnWidth = 4;
+                float snowSpawnDepth = 4;
                 float snowStartHeight = 3.0f;
-                float maxPosVariance = 5.0f;
+                //Variance in lifetime of particles
+                float lifetimeVariance = 5.0f;
+                //base speed of particles
                 float snowSpeed = -0.5f;
+                //variance in speed of particles
                 float speedVariance = 0.3f;
-                float maxPos = 10;
-                for(int i = 0; i < 50; i++){
+                //base lifetime of particles
+                float lifetime = 10;
+                //numer of particles, they get respawned after lifetime is over
+                int numberOfParticles = 50;
+                for(int i = 0; i < numberOfParticles; i++){
                     //generate a random number between -0,5*width and +0,5*width
                     float myXPos = (float)(rand()) / (float)(RAND_MAX) * snowSpawnWidth - snowSpawnWidth/2;
-                    //generate a random number between -0,5*depth and +0,5*depth
-                    float myZPos = (float)(rand()) / (float)(RAND_MAX) * snowSpawnDepth - snowSpawnDepth/2;
-                    //generate a random number between  maxPos and maxPosVariance + maxPos
-                    float myMaxPos = (float)(rand()) / (float)(RAND_MAX) * maxPosVariance + maxPos;
+                    //generate a random number for depth
+                    float myZPos = (float)(rand()) / (float)(RAND_MAX) * snowSpawnDepth;
+                    //generate a random number between  lifetime and lifetimeVariance + lifetime
+                    float myLifetime = (float)(rand()) / (float)(RAND_MAX) * lifetimeVariance + lifetime;
                     //generate a random number between  speed and speedVariance + speed
                     float mySpeed = (float)(rand()) / (float)(RAND_MAX) * speedVariance + snowSpeed;
 
@@ -179,7 +186,7 @@ public:
                                          {},
                                         0,
                                         mySpeed,
-                                        myMaxPos
+                                        myLifetime
                                          }};
 
                     //generate snow particle

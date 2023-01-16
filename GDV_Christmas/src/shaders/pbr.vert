@@ -5,7 +5,7 @@ uniform mat4 mvp;
 uniform mat4 model;
 uniform float time;
 uniform float speed;
-uniform float max_pos;
+uniform float lifetime;
 
 in vec3 position;
 in vec3 normal;
@@ -24,7 +24,7 @@ void main() {
     float z = position.z;
 
     if(speed!=0){
-        y = position.y + mod(time,max_pos)*speed;
+        y = position.y + mod(time,lifetime)*speed;
     }
 
     vec3 newPos = vec3(x,y,z);
