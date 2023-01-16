@@ -184,6 +184,8 @@ struct Material {
         Texture metal{};
         Texture displacement{};
         float displacementScale{0.125f};
+        float speed{0};
+        float max_pos{0};
     } textures{};
 
     Color emittedRadiance{};

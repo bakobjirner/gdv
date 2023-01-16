@@ -55,6 +55,7 @@ public:
 
                 const Material::Diffuse diffuseGray{{0.5f, 0.5f, 0.5f}};
                 const Material::Diffuse diffuseBlue{{0.2f, 0.5f, 0.9f}};
+                const Material::Diffuse diffuseWhite{{1.0f, 1.0f, 1.0f}};
                 const Material::Diffuse diffuseGreen{{0.4f, 0.9f, 0.3f}};
                 const Material::Dielectric water{1.33f, 1.0f};
                 const Material::Dielectric glass{1.5f, 1.0f};
@@ -72,6 +73,7 @@ public:
                 const Material::RoughPlastic redRubber{boxRed, glass, glossyMicrofacet};
                 const Material::RoughPlastic stone{diffuseGray, glass, roughMicrofacet};
                 const Material::RoughPlastic metal{diffuseGray, water, glossyMicrofacet};
+                const Material::RoughPlastic snowParam{diffuseWhite, glass, roughMicrofacet};
 
                 const Material stoneWall{stone,
                                          {{"../textures/stone_wall_diff_2k.jpg"},
@@ -89,6 +91,17 @@ public:
                                          {"../textures/treasure_chest_nor_gl_2k.jpg"},
                                          {"../textures/treasure_chest_metal_2k.jpg"},
                                          {"../textures/treasure_chest_rough_2k.jpg"}}};
+                const Material snow{snowParam,
+                                        {{},
+                                         {},
+                                         {},
+                                         {},
+                                         {},
+                                        0,
+                                        -0.5,
+                                        8
+                                         }};
+                
 
                 const Material blueEmitter{diffuseBlue, {}, diffuseBlue.albedo * 10.0f};
             } const materials;
@@ -96,7 +109,7 @@ public:
             // setup the scene
             Scene scene;
 
-            if constexpr (/* Christmas Special */ (false)) {
+            if constexpr (/* Christmas Special */ (true)) {
                 const std::array<std::string, 6> christmasMeshes{
                     "../meshes/christmas_special/customized_christmas_tree_100_75_5_9.obj"s,
                     "../meshes/christmas_special/customized_christmas_tree_100_75_7_3.obj"s,
@@ -139,6 +152,40 @@ public:
 
                 gui->setCameraParameters({{-0.5f, 1.0f, -0.5f}, {2.0f, 1.5f, 3.0f}});
 
+                //settings for snow
+                float snowSpawnWidth = 5;
+                float snowSpawnDepth = 5;
+                float snowStartHeight = 3.0f;
+                float maxPosVariance = 5.0f;
+                float snowSpeed = -0.5f;
+                float speedVariance = 0.3f;
+                float maxPos = 10;
+                for(int i = 0; i < 50; i++){
+                    //generate a random number between -0,5*width and +0,5*width
+                    float myXPos = (float)(rand()) / (float)(RAND_MAX) * snowSpawnWidth - snowSpawnWidth/2;
+                    //generate a random number between -0,5*depth and +0,5*depth
+                    float myZPos = (float)(rand()) / (float)(RAND_MAX) * snowSpawnDepth - snowSpawnDepth/2;
+                    //generate a random number between  maxPos and maxPosVariance + maxPos
+                    float myMaxPos = (float)(rand()) / (float)(RAND_MAX) * maxPosVariance + maxPos;
+                    //generate a random number between  speed and speedVariance + speed
+                    float mySpeed = (float)(rand()) / (float)(RAND_MAX) * speedVariance + snowSpeed;
+
+                    //individual material settings for variance
+                    Material snow1{materials.snowParam,
+                                        {{},
+                                         {},
+                                         {},
+                                         {},
+                                         {},
+                                        0,
+                                        mySpeed,
+                                        myMaxPos
+                                         }};
+
+                    //generate snow particle
+                    scene.addInstance({"../meshes/snowflake.obj",snow1,{Matrix3D::scale(1.0f), {myXPos, snowStartHeight, myZPos}}});
+                }
+
                 scene.environmentMap = {"../textures/blaubeuren_church_square_2k.hdr", false};
             }
             else {
@@ -161,13 +208,13 @@ public:
                 //                   {Matrix3D::scale(0.8f), {0.9f, 0.4f, -1.0f}}});
                 // scene.addInstance({"../meshes/uv_sphere.obj", {materials.silver},
                 //                   {{}, {0.0f, 1.0f, 0.0f}}});
-                scene.addInstance({"../meshes/cannon_01_2k.obj", materials.cannon});
-                scene.addInstance({"../meshes/treasure_chest_2k.obj",
-                                   materials.treasure,
-                                   {{}, {1.0f, 0.0f, -1.0f}}});
-                scene.addInstance({"../meshes/teapot.obj",
-                                   {materials.silver},
-                                   {Matrix3D::scale(0.1f), {-1.3f, 0.0f, 0.0f}}});
+                // scene.addInstance({"../meshes/cannon_01_2k.obj", materials.cannon});
+                // scene.addInstance({"../meshes/treasure_chest_2k.obj",
+                //                    materials.treasure,
+                //                    {{}, {1.0f, 0.0f, -1.0f}}});
+                // scene.addInstance({"../meshes/teapot.obj",
+                //                    {materials.silver},
+                //                    {Matrix3D::scale(0.1f), {-1.3f, 0.0f, 0.0f}}});
                 // scene.addInstance({"../meshes/loki.obj", {materials.gold}});
                 // scene.addInstance({"../meshes/Su_Laegildah.obj", {materials.diffuseGray}});
 

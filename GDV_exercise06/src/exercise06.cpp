@@ -113,9 +113,9 @@ flat out vec3 ws_normal_flat;
 void main() {
     // TODO: apply the "wobble" transformation as described on the exercise sheet
 
-    float x = (1+0.25*sin(5*(time+position.y)))*position.x;
-    float y = position.y;
-    float z = (1+0.25*sin(5*(time+position.y)))*position.z;
+    float x = position.x;
+    float y = position.y + sin(time)*position.x*position.z;
+    float z = position.z;
     vec3 newPos = vec3(x,y,z);
     gl_Position = mvp * vec4(newPos, 1.0);
     ws_position = model * vec4(newPos, 1.0);

@@ -72,6 +72,9 @@ PBRShader::PBRShader(const GLMesh& mesh, const Matrix4D& model, const Material& 
         meshShader.setUniform("alpha", roughPlastic.microfacetDistribution.alpha);
         meshShader.setUniform("F0", Point3D{roughPlastic.dielectric.fresnel(1, 1)});
     }
+    meshShader.setUniform("speed", material.textures.speed);
+    meshShader.setUniform("max_pos", material.textures.max_pos);
+
 
     meshShader.deactivate();
 
@@ -109,6 +112,7 @@ void PBRShader::draw(const Light::Point& light, const Point3D cameraPos, const M
     meshShader.setUniform("useNormalMapping", params.normalMap);
     meshShader.setUniform("useDisplacementMapping", params.displacementMap);
     meshShader.setUniform("useShadowMapping", params.shadowMap);
+    meshShader.setUniform("time", (float)glfwGetTime());
 
     glActiveTexture(GL_TEXTURE0);
     shadowMap.bind();
