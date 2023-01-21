@@ -1,4 +1,5 @@
 #include "common/constants.h"
+#include "geometry/point3d.h"
 #include <render/raytracer.h>
 #include <render/spheretracer.h>
 
@@ -29,6 +30,7 @@ std::pair<Point3D, uint32_t> SignedDistanceFunction::sphereTrace(Ray ray) const
         pos = pos + ray.direction * dist;
         remainingDist = remainingDist-dist;
         dist = eval(pos);
+        i++;
     }
     return {pos, i};
 }
@@ -38,5 +40,8 @@ Normal3D SignedDistanceFunction::computeNormal(Point3D pos) const
     // TODO: compute the normal numerically using central differences
     // while the gradient of the SDF should have magnitude 1 everywhere,
     // it should be easier and safer to simply normalize the resulting vector before returning it
-    return {}; // replace this with your result
+    float x = eval(pos+Point3D(epsilon,0,0))-eval(pos-Point3D(epsilon,0,0));
+    float y = eval(pos+Point3D(0,epsilon,0))-eval(pos-Point3D(0,epsilon,0));
+    float z = eval(pos+Point3D(0,0,epsilon))-eval(pos-Point3D(0,0,epsilon));
+    return normalize(Point3D(x,y,z)); // replace this with your result
 }
