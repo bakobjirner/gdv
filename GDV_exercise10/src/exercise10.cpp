@@ -1,13 +1,12 @@
 #include "common/constants.h"
 #include "geometry/point3d.h"
+#include "render/color.h"
 #include <render/raytracer.h>
 #include <render/spheretracer.h>
 
 Color Material::Absorption::transmittance(float distance) const
 {
-    // TODO: compute the transmittance for a ray traveling the given distance through this medium
-    return (Color{2.0f} - absorptionCoefficient / Point3D{absorptionCoefficient}.maxComponent())
-         * 0.5f; // replace this with your implementation
+    return exp(-(Color(distance) * absorptionCoefficient));
 }
 
 std::pair<Point3D, uint32_t> SignedDistanceFunction::sphereTrace(Ray ray) const
