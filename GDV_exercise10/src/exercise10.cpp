@@ -1,3 +1,4 @@
+#include "common/constants.h"
 #include <render/raytracer.h>
 #include <render/spheretracer.h>
 
@@ -24,7 +25,11 @@ std::pair<Point3D, uint32_t> SignedDistanceFunction::sphereTrace(Ray ray) const
     // TODO: implement the sphere tracing algorithm
     // you can stop the trace once distance <= epsilon (hit)
     // or when you have exceeded the allowed distance of the ray tMax (miss)
-
+    while(remainingDist>0 && dist>=epsilon){
+        pos = pos + ray.direction * dist;
+        remainingDist = remainingDist-dist;
+        dist = eval(pos);
+    }
     return {pos, i};
 }
 
