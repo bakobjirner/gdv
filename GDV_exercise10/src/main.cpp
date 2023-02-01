@@ -47,7 +47,7 @@ public:
         gui = new GDVGUI(this);
 
         // TODO: enable this branch for the volume-rendering exercise
-        if (/* 3D scene */ (false)) {
+        if (/* 3D scene */ (true)) {
             // selection of Materials
             struct MaterialDatabase {
                 const Material::Diffuse boxRed{{0.8f, 0.4f, 0.3f}};
