@@ -11,12 +11,12 @@
 
 struct GLMesh {
     GLMesh(const Mesh& mesh) {
-        vertexBuffer.setBuffer<Point3D>("position", mesh.getVertices());
-        vertexBuffer.setBuffer<Normal3D>("normal", mesh.getNormals());
-        vertexBuffer.setBuffer<TriangleIndices>("triangles", mesh.getFaces());
+        vertexBuffer.setBuffer<Point3D>("position", {mesh.getVertices().data(),mesh.getVertices().size()});
+        vertexBuffer.setBuffer<Normal3D>("normal", {mesh.getNormals().data(),mesh.getNormals().size()});
+        vertexBuffer.setBuffer<TriangleIndices>("triangles", {mesh.getFaces().data(),mesh.getFaces().size()});
         hasTexCoords = mesh.getTextureCoordinates().size();
         if (hasTexCoords)
-            vertexBuffer.setBuffer<Point2D>("texCoords", mesh.getTextureCoordinates());
+            vertexBuffer.setBuffer<Point2D>("texCoords", {mesh.getTextureCoordinates().data(),mesh.getTextureCoordinates().size()});
 
         numTriangles = static_cast<uint32_t>(mesh.getFaces().size());
         smoothGroups = mesh.getSmoothGroups();

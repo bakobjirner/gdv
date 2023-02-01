@@ -101,7 +101,7 @@ BVHShader::BVHShader(const Instance& instance)
             bvhVertices.emplace_back(node.bounds.max.x, node.bounds.max.y, node.bounds.min.z);
             bvhVertices.emplace_back(node.bounds.max.x, node.bounds.max.y, node.bounds.max.z);
         }
-        vertexBuffer.setBuffer<Point3D>("position", bvhVertices);
+        vertexBuffer.setBuffer<Point3D>("position", {bvhVertices.data(), bvhVertices.size()});
     }
     {
         std::vector<LineIndices> bvhIndices;
@@ -125,7 +125,7 @@ BVHShader::BVHShader(const Instance& instance)
             bvhIndices.push_back({8 * i + 7, 8 * i + 6});
             bvhIndices.push_back({8 * i + 6, 8 * i + 4});
         }
-        vertexBuffer.setBuffer<LineIndices>("lines", bvhIndices);
+        vertexBuffer.setBuffer<LineIndices>("lines", {bvhIndices.data(), bvhIndices.size()});
     }
 
     bvhShader.activate();
