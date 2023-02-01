@@ -38,6 +38,12 @@ void SpectralToRGB::loadWavelengthToXYZ(const std::string_view filename)
     std::ifstream csvFile{filename.data(), std::ios_base::in};
 
     // TODO: read in the CSV file
+    std::string data;
+    while(csvFile){
+    csvFile >> data;
+    std::cout<<data<<std::endl;
+    }
+   
 
     std::cout << "Read wavelength to XYZ file with " << wavelengthToXYZ.size() << " entries."
               << std::endl;
